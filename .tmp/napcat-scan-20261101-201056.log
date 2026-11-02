@@ -1,0 +1,639 @@
+NapCat Shell App Loading...
+11-01 20:10:57 [[32minfo[39m] [PacketHandler] 加载成功
+11-01 20:10:57 [[32minfo[39m] [Napi2NativeLoader] 加载成功
+11-01 20:10:57 [[32minfo[39m] [FFmpeg] 检查 Native Addon 可用性...
+11-01 20:10:57 [[32minfo[39m] [FFmpeg] ✓ 使用 Native Addon 适配器
+11-01 20:10:57 [[32minfo[39m] [PacketHandler] 初始化成功
+11-01 20:10:57 [[32minfo[39m] [NapCat] [Core] NapCat.Core Version: 4.18.41
+11-01 20:10:57 [[32minfo[39m] [NapCat] [WebUi] WebUi Token: 7be0fea301e6
+11-01 20:10:57 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://127.0.0.1:6099/webui?token=7be0fea301e6
+11-01 20:10:57 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://[::]:6099/webui?token=7be0fea301e6
+11-01 20:10:57 [[32minfo[39m] 等待网络连接...
+11-01 20:10:58 [[32minfo[39m] 网络已连接
+11-01 20:10:58 [[32minfo[39m] 没有 -q 指令指定快速登录，将使用二维码登录方式
+11-01 20:10:58 [[32minfo[39m] 可用于快速登录 of QQ：
+1. 235286703 Moon
+2. 3680764546 Moon
+11-01 20:10:58 [[33mwarn[39m] 请扫描下面的二维码，然后在手Q上授权登录：
+11-01 20:10:58 [[33mwarn[39m] 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▄▄ ▀▄██ █  ████▄█ ▄▄▄▄▄ █
+█ █   █ ██▄▀ █ ▀▄▄▀▀▄█ ▀▀▀█ █   █ █
+█ █▄▄▄█ ██▀▄ ▄████ █▄ ▄▄▀▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ ▀ █ █▄▀ █ █ █▄▄▄▄▄▄▄█
+█▄▄█  ▀▄▀▀▄▀█▄██▀▀█▀▀▄█▄ ██▄▀▀█▀▀▄█
+██ ▄ ▀ ▄▄█▄██▄█▄ █▀█▀▄█   ▀  ▄▀▀▄▄█
+█▀▀▀▄ █▄▄▄▄ █▀▀▄  ▀▀▄▄ ▀▀▄▀▄▄███▄▄█
+█▀▄▄▄▄▄▄█▄▀ █▀▄▀ ▄▄▀▄█▄ █▀▀▄█ █▀█▀█
+█▄  ▀█▀▄▄▀▀█ ▄▄  ▀▀▀▄ █▄▀█▄ ▀ ▄█  █
+██▀ █▀▀▄▄▄█ ▀▄   ▄▄▄▄█▄█▄██▀█▄█▀▀ █
+█▀█▄ ▄▄▄▀▀▄▀▄▀██▀▄▀▀ ▄█▄ ▀▄█▀▀▀█▀██
+█ █ ▀▄█▄▀█ ▄ ▀█ ▄▀ ▄███▄▄▀ ▀ ▄█▀▄▄█
+█▄▄▄▄█▄▄█▀ ▀▄▄▀▄ █▄██▀▀ █ ▄▄▄ ▀▀ ██
+█ ▄▄▄▄▄ ████ ▄█  ██ ▄▄▄   █▄█ ▀ █▀█
+█ █   █ █ ▀ ▀ ▄  ▄▀█▀▀▄ ▄▄ ▄▄▄▀█▄▄█
+█ █▄▄▄█ █▀▀ ▄▄   ▄▄█ ▀██▀█▀▀▄   ▀ █
+█▄▄▄▄▄▄▄█▄██████████▄█▄██▄▄█▄█▄████
+
+二维码解码URL: https://txz.qq.com/p?k=Yhxm956Xt78FAu9wLby1I5GnaIPuZw0j&f=1600001604
+如果控制台二维码无法扫码，可以复制解码url到二维码生成网站生成二维码再扫码，也可以打开下方的二维码路径图片进行扫码。
+11-01 20:10:58 [[33mwarn[39m] 二维码已保存到 E:\qqbot\tools\NapCat\napcat\cache\qrcode.png
+11-01 20:11:50 [[32minfo[39m] [Core] [Login] 二维码已被扫描，等待确认...
+11-01 20:11:58 [[32minfo[39m] [NapCat] [Fork] Worker进程已登录成功，切换到正常重试策略
+11-01 20:11:58 [[32minfo[39m] [NapCat] 已通知主进程登录成功
+11-01 20:11:58 [[32minfo[39m] [NapCat] 已启用数据库辅助支持能力
+11-01 20:11:58 [[34mdebug[39m] 本账号数据/缓存目录： C:\Users\86182\Documents\Tencent Files\NapCat\data
+11-01 20:11:58 [[34mdebug[39m] [Core] [Config] 配置文件E:\qqbot\tools\NapCat\napcat\config\napcat_235286703.json加载 {"fileLog":false,"consoleLog":true,"fileLogLevel":"debug","consoleLogLevel":"info","packetBackend":"auto","packetServer":"","o3HookMode":1,"bypass":{"hook":false,"window":false,"module":false,"process":false,"container":false,"js":false},"autoTimeSync":true}
+11-01 20:11:58 [[32minfo[39m] [ServerTime] 时间同步完成，偏差 -793ms
+11-01 20:11:58 [[32minfo[39m] [Core] [Packet] 使用 NativePacketClient 作为后端
+11-01 20:11:59 [[32minfo[39m] [Core] [Packet] [PacketClient] NativePacketClient Hook 初始化成功 platform=win32.x64
+11-01 20:11:59 [[32minfo[39m] [AdapterManager] 开始初始化协议适配器...
+11-01 20:11:59 [[32minfo[39m] [Notice] [OneBot11] [network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:11:59 [[32minfo[39m] [AdapterManager] OneBot11 适配器初始化完成
+11-01 20:11:59 [[32minfo[39m] [AdapterManager] NapCat Protocol 适配器未启用，跳过初始化
+11-01 20:11:59 [[32minfo[39m] [AdapterManager] 协议适配器初始化完成，已加载 2 个适配器
+11-01 20:12:06 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:12:06 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:12:06 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 什么
+11-01 20:12:13 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) [图片]
+11-01 20:12:19 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:12:19 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:12:19 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:12:20 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 恢复
+11-01 20:12:24 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:12:55 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:12:55 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:12:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接意外关闭
+11-01 20:12:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:12:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 发送生命周期失败 Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.connectEvent (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64645:18)
+    at WebSocket.<anonymous> (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64630:16)
+    at WebSocket.emit (node:events:518:28)
+    at WebSocket.setSocket (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:271:10)
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:1043:15)
+    at ClientRequest.emit (node:events:518:28)
+    at Socket.socketOnData (node:_http_client:586:11)
+11-01 20:12:59 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 醒了 你还没睡？
+11-01 20:12:59 [[31merror[39m] Moon | [NapCat] [Error] unhandledRejection: Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.handleMessage (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64669:16)
+11-01 20:13:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:13:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:13:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:13:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:13:09 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:13:10 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:13:10 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:13:10 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你是谁
+11-01 20:13:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:13:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:13:14 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:13:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:13:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:13:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接意外关闭
+11-01 20:13:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:13:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)
+11-01 20:13:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:13:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)
+11-01 20:13:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:13:29 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 醒了 你还没睡？
+11-01 20:13:35 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:13:35 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:13:35 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:13:35 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 20:13:40 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:13:42 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 嗯 说吧
+11-01 20:16:24 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:16:24 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:25 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:16:25 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 你干嘛
+11-01 20:16:25 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:26 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:16:26 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:27 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:27 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:16:27 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 正在打开 Moon
+11-01 20:16:29 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:16:29 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:29 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:29 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你是谁
+11-01 20:16:29 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:16:30 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:16:30 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:16:30 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:16:30 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:16:30 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 发送生命周期失败 Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.connectEvent (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64645:18)
+    at WebSocket.<anonymous> (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64630:16)
+    at WebSocket.emit (node:events:518:28)
+    at WebSocket.setSocket (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:271:10)
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:1043:15)
+    at ClientRequest.emit (node:events:518:28)
+    at Socket.socketOnData (node:_http_client:586:11)
+11-01 20:16:35 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:16:35 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:16:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:16:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:16:43 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:16:43 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:43 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:43 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:16:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:16:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:16:48 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:16:50 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:16:50 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:16:50 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:16:51 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:51 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:16:51 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 恢复
+11-01 20:16:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:16:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:16:55 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:17:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:22 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:17:25 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:25 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:30 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:30 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:35 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:35 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:50 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:50 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:17:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:17:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:17 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:18:17 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:18:33 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:18:33 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:18:33 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:33 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:33 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 发送生命周期失败 Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.connectEvent (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64645:18)
+    at WebSocket.<anonymous> (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64630:16)
+    at WebSocket.emit (node:events:518:28)
+    at WebSocket.setSocket (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:271:10)
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:1043:15)
+    at ClientRequest.emit (node:events:518:28)
+    at Socket.socketOnData (node:_http_client:586:11)
+11-01 20:18:33 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:33 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:38 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:38 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:43 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:43 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:48 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:48 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:53 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:53 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:18:58 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:18:58 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:03 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:03 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:08 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:08 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:13 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:13 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:18 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:18 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:23 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:23 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:28 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:28 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:33 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:33 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:38 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:38 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:43 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:43 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:48 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:48 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:53 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:53 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:19:58 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:19:58 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:20:03 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:20:03 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:20:08 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:20:08 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:20:08 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:20:08 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:20:53 [[31merror[39m] Moon | [KickedOffLine] [下线通知] 你的账号当前登录已失效，请重新登录。
+11-01 20:20:54 [[32minfo[39m] Moon | 账号状态变更为离线
+11-01 20:20:56 [[33mwarn[39m] Moon | [Core] [Login] 账号已离线，正在重启 Worker 以重新创建 QQ 登录服务 {"result":true,"message":"进程重启请求已发送"}
+NapCat Shell App Loading...
+11-01 20:21:00 [[32minfo[39m] [PacketHandler] 加载成功
+11-01 20:21:00 [[32minfo[39m] [Napi2NativeLoader] 加载成功
+11-01 20:21:00 [[32minfo[39m] [FFmpeg] 检查 Native Addon 可用性...
+11-01 20:21:00 [[32minfo[39m] [FFmpeg] ✓ 使用 Native Addon 适配器
+11-01 20:21:00 [[32minfo[39m] [PacketHandler] 初始化成功
+11-01 20:21:00 [[32minfo[39m] [NapCat] [Core] NapCat.Core Version: 4.18.41
+11-01 20:21:00 [[32minfo[39m] [NapCat] [WebUi] WebUi Token: 7be0fea301e6
+11-01 20:21:00 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://127.0.0.1:6099/webui?token=7be0fea301e6
+11-01 20:21:00 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://[::]:6099/webui?token=7be0fea301e6
+11-01 20:21:00 [[32minfo[39m] 等待网络连接...
+11-01 20:21:01 [[32minfo[39m] 网络已连接
+11-01 20:21:01 [[32minfo[39m] 没有 -q 指令指定快速登录，将使用二维码登录方式
+11-01 20:21:01 [[32minfo[39m] 可用于快速登录 of QQ：
+1. 235286703 Moon
+2. 3680764546 Moon
+11-01 20:21:01 [[33mwarn[39m] 请扫描下面的二维码，然后在手Q上授权登录：
+11-01 20:21:01 [[33mwarn[39m] 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀ █▀▀▀ ▀▀█▄▄ ▀█▄▀█ ▄▄▄▄▄ █
+█ █   █ █▀ ▄ █▀█ ▀███▀▄█▀▄█ █   █ █
+█ █▄▄▄█ █▀█ █▄█▄▀▀█ █▄▀▄▄ █ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ █▄▀ █▄█▄▀▄▀▄█▄▄▄▄▄▄▄█
+█▄▄▄▄ ▀▄▄  ▄█▄▄▀█▄▀▀▄ █▄▀▄▄▀▄█▄▀ ▀█
+█▀▄█▄█▀▄█▄ ▀ ▄██▄▀▄▀█▀ ▀██▀▀▄ ▄▀▄██
+██ ▀█▄ ▄█▄ ▀▄▀▄▀▄▀ ▄█ █▀▀▄▄▀ ▄▄█▀▀█
+██▀█  ▄▄ ▄█▀█▀██▄▀█▄█▀ ▀▀▄  ▀██▀▄██
+██▄▄ ██▄█▄▀▄█▄▄▀▄████▀█▄▀▀▄▀█▄▀█ ▀█
+██  ▄▀ ▄▀▄▀█ ▄██▄▄▄ █▄ ▀██ ▄▀█▄▀▄██
+█ ▄▀▀▀▄▄▄▄█▄▄▀▄▀ ▀██▄ █  ▀█▀█▄▀█ ▀█
+█ █▀▀█ ▄█▀ ▄█▀█▀▄█▄█▀█▀█▀▀  ▄  ▀▄██
+█▄███▄▄▄▄▀█ █▄▄▀ ▀▄▀ █▀▀▄ ▄▄▄  ▀█ █
+█ ▄▄▄▄▄ █▄▄▄ ▄▄▄  ▄ ▀▀ ▀  █▄█ ▀ ▄██
+█ █   █ █ ▀█▄ ▄▀ ▀ █▀ ██▀▄ ▄  ▄█▄██
+█ █▄▄▄█ █ ▄▀█▄██▄▄█▄█▀▀█ █▄▄ ▀▀ ▄██
+█▄▄▄▄▄▄▄█▄████▄█▄██████▄█▄██▄▄▄█▄██
+
+二维码解码URL: https://txz.qq.com/p?k=6ef8h8i9iz1*dv*YDTXQeAN9RWbyCEBC&f=1600001604
+如果控制台二维码无法扫码，可以复制解码url到二维码生成网站生成二维码再扫码，也可以打开下方的二维码路径图片进行扫码。
+11-01 20:21:01 [[33mwarn[39m] 二维码已保存到 E:\qqbot\tools\NapCat\napcat\cache\qrcode.png
+11-01 20:23:01 [[31merror[39m] [Core] [Login] Login Error,ErrType:  1  ErrCode: 3
+11-01 20:23:02 [[33mwarn[39m] 请扫描下面的二维码，然后在手Q上授权登录：
+11-01 20:23:02 [[33mwarn[39m] 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀ █▀▀▀ ▀▀█▀█ ▄ ▄██ ▄▄▄▄▄ █
+█ █   █ █▀ ▄ █▀█ ▀██▄▀  █▀█ █   █ █
+█ █▄▄▄█ █▀█ █▄█▄▀▀▀█▄▄▄ ███ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ █▄▀ █▄▀ ▀▄█ █▄▄▄▄▄▄▄█
+█  ▄▄ ▀▄▄  ▄█▄▄▀█▄▄▀▀▄▀▀▀▄▄▀▄█▄▀ ▀█
+█▄▄▀▀▀▄▄█  ▀ ▄██▄▀███▀ ▄██▀▀▄ ▄▀▄██
+█▀█▄▄█▄▄██ ▀▄▀▄▀▄▀▄▀█ ▄ ▄▄▄▀ ▄▄█▀▀█
+█ ▀▄▀▄▀▄▄▄▄ █▀██▄▀███  ▀█▀  ▀██▀▄██
+██▀▀ █▄▄ █  █▄▄▀▄██▀ █▀▀ █▄▀█▄▀█ ▀█
+█▄██▀▄ ▄▄  ▀ ▄██ ▄█▀█▄ ▄██ ▄▀█▄▀▄██
+█▀▄▀▀▄▄▄▀▀ █▄▀▄▀▀  ▄▀ ██ ▀█▀█▄▀█ ▀█
+█ █▄▄ █▄▄  ██▀█▀  █▄▀   ▀▀  ▄  ▀▄██
+█▄██▄▄▄▄█▀▀██▄▄▀▄ ▄██▀ ▄▄ ▄▄▄  ▀█ █
+█ ▄▄▄▄▄ █▄▄█ ▄▄▄ █▄███ ▄  █▄█ ▀ ▄██
+█ █   █ █  █▄ ▄▀█▄▄▄▀ ▀▀▀▄ ▄  ▄█▄██
+█ █▄▄▄█ █ ▀▀█▄██ ▀▄ █▄ ▀ █▄▄ ▀▀ ▄██
+█▄▄▄▄▄▄▄█▄█▄██▄█▄█▄████▄█▄██▄▄▄█▄██
+
+二维码解码URL: https://txz.qq.com/p?k=yMaEwV4Y4-D1apGq-T6sQWeeD9w2d8uY&f=1600001604
+如果控制台二维码无法扫码，可以复制解码url到二维码生成网站生成二维码再扫码，也可以打开下方的二维码路径图片进行扫码。
+11-01 20:23:02 [[33mwarn[39m] 二维码已保存到 E:\qqbot\tools\NapCat\napcat\cache\qrcode.png
+11-01 20:24:18 [[32minfo[39m] [Core] [Login] 二维码已被扫描，等待确认...
+11-01 20:24:24 [[32minfo[39m] [NapCat] [Fork] Worker进程已登录成功，切换到正常重试策略
+11-01 20:24:24 [[32minfo[39m] [NapCat] 已通知主进程登录成功
+11-01 20:24:24 [[32minfo[39m] [NapCat] 已启用数据库辅助支持能力
+11-01 20:24:24 [[34mdebug[39m] 本账号数据/缓存目录： C:\Users\86182\Documents\Tencent Files\NapCat\data
+11-01 20:24:24 [[34mdebug[39m] [Core] [Config] 配置文件E:\qqbot\tools\NapCat\napcat\config\napcat_235286703.json加载 {"fileLog":false,"consoleLog":true,"fileLogLevel":"debug","consoleLogLevel":"info","packetBackend":"auto","packetServer":"","o3HookMode":1,"bypass":{"hook":false,"window":false,"module":false,"process":false,"container":false,"js":false},"autoTimeSync":true}
+11-01 20:24:24 [[32minfo[39m] [ServerTime] 时间同步完成，偏差 -716ms
+11-01 20:24:24 [[32minfo[39m] [Core] [Packet] 使用 NativePacketClient 作为后端
+11-01 20:24:25 [[32minfo[39m] [Core] [Packet] [PacketClient] NativePacketClient Hook 初始化成功 platform=win32.x64
+11-01 20:24:25 [[32minfo[39m] [AdapterManager] 开始初始化协议适配器...
+11-01 20:24:25 [[32minfo[39m] [Notice] [OneBot11] [network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:24:25 [[32minfo[39m] [AdapterManager] OneBot11 适配器初始化完成
+11-01 20:24:25 [[32minfo[39m] [AdapterManager] NapCat Protocol 适配器未启用，跳过初始化
+11-01 20:24:25 [[32minfo[39m] [AdapterManager] 协议适配器初始化完成，已加载 2 个适配器
+api call returning -804843504
+11-01 20:24:30 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 醒了 你还没睡？
+11-01 20:24:35 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:24:36 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:24:36 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 20:24:37 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:24:42 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 嗯 你好 ...
+11-01 20:24:42 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:24:45 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:24:45 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:24:45 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:24:45 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 你干嘛
+11-01 20:24:47 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:24:47 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:24:47 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:24:47 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:24:47 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 正在打开 Moon
+11-01 20:24:51 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:24:51 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:24:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:24:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:24:51 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) [图片]
+11-01 20:24:52 [[31merror[39m] Moon | [NapCat] [Error] unhandledRejection: Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.handleMessage (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64669:16)
+11-01 20:24:52 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:24:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:24:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:32 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:25:33 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:25:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:37 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:25:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:44 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:25:45 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:25:45 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 我现在正在通过机器人的检修状态命令你
+11-01 20:25:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:25:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:25:57 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:25:57 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:25:57 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:25:57 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 恢复
+11-01 20:26:01 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:26:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:01 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:26:01 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:26:01 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:26:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:26:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:26:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:26:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:27:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:27:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:37 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:28:37 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:28:37 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:28:37 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 20:28:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:42 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:28:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:28:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:28:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:29:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:29:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:30:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:30:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:31:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:31:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:32:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:32:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接

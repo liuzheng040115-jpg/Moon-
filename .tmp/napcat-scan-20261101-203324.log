@@ -1,0 +1,658 @@
+NapCat Shell App Loading...
+11-01 20:33:25 [[32minfo[39m] [PacketHandler] 加载成功
+11-01 20:33:25 [[32minfo[39m] [Napi2NativeLoader] 加载成功
+11-01 20:33:25 [[32minfo[39m] [FFmpeg] 检查 Native Addon 可用性...
+11-01 20:33:25 [[32minfo[39m] [FFmpeg] ✓ 使用 Native Addon 适配器
+11-01 20:33:25 [[32minfo[39m] [PacketHandler] 初始化成功
+11-01 20:33:25 [[32minfo[39m] [NapCat] [Core] NapCat.Core Version: 4.18.41
+11-01 20:33:26 [[32minfo[39m] [NapCat] [WebUi] WebUi Token: 7be0fea301e6
+11-01 20:33:26 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://127.0.0.1:6099/webui?token=7be0fea301e6
+11-01 20:33:26 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://[::]:6099/webui?token=7be0fea301e6
+11-01 20:33:26 [[32minfo[39m] 等待网络连接...
+11-01 20:33:26 [[32minfo[39m] 网络已连接
+11-01 20:33:26 [[32minfo[39m] 没有 -q 指令指定快速登录，将使用二维码登录方式
+11-01 20:33:26 [[32minfo[39m] 可用于快速登录 of QQ：
+1. 235286703 Moon
+2. 3680764546 Moon
+11-01 20:33:26 [[33mwarn[39m] 请扫描下面的二维码，然后在手Q上授权登录：
+11-01 20:33:26 [[33mwarn[39m] 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▄▄ ▀▄██  █▀█ ▀███ ▄▄▄▄▄ █
+█ █   █ ██▄▀ █ ▀▄▄██ █▄▄▄██ █   █ █
+█ █▄▄▄█ ██▀▄ ▄████ █▄█  ▀▀█ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ ▀ █ █▄█ █ █▄█▄▄▄▄▄▄▄█
+█ ▄█  █▄██▄▀█▄██▀▀▄▀  ▄█▀██▄▀▀█▀▀▄█
+█▄▀▀▄ █▄▄▀▄██▄█▄ █▀██ █▀ ▄▀  ▄▀▀▄▄█
+█  ▄▀▀ ▄█▄▄ █▀▀▄  ▀▀▀▄ █▄█▀▄▄███▄▄█
+█▀█▀█ ▄▄   ▄█▀▄▀ ▄▄▄▄ █▀▀▀▀▄█ █▀█▀█
+█  █▀ █▄ ▄   ▄▄  ▀▄▀█ ▀  █▄ ▀ ▄█  █
+█▄██▀▀▀▄▄█▀ ▀▄    ▄█  ▄ ▄██▀█▄█▀▀ █
+█ ▄▄▄▄█▄  ▀▀▄▀██ ▀▄█▀ █▀ ▀▄█▀▀▀█▀██
+█ █▄ ▀ ▄▀▄▀  ▀█  ▀▀ █▄█▄▄▀ ▀ ▄█▀▄▄█
+█▄▄▄▄██▄▄▀▀ ▄▄▀▄▄ ██▄█ ██ ▄▄▄ ▀▀ ██
+█ ▄▄▄▄▄ ██▀▄ ▄█  ▀▄▄ ▄█▀  █▄█ ▀ █▀█
+█ █   █ █  ▄▀ ▄   ▄▀█ ▀▄▄▄ ▄▄▄▀█▄▄█
+█ █▄▄▄█ █▀▀▀▄▄  ▄ ▄▄▄▄▄ ▀█▀▀▄   ▀ █
+█▄▄▄▄▄▄▄█▄██████▄▄▄█▄█▄██▄▄█▄█▄████
+
+二维码解码URL: https://txz.qq.com/p?k=STtwvSRNigNyFGp8AL2ywUgkMrsId3B6&f=1600001604
+如果控制台二维码无法扫码，可以复制解码url到二维码生成网站生成二维码再扫码，也可以打开下方的二维码路径图片进行扫码。
+11-01 20:33:26 [[33mwarn[39m] 二维码已保存到 E:\qqbot\tools\NapCat\napcat\cache\qrcode.png
+11-01 20:33:59 [[32minfo[39m] [Core] [Login] 二维码已被扫描，等待确认...
+11-01 20:34:05 [[32minfo[39m] [NapCat] [Fork] Worker进程已登录成功，切换到正常重试策略
+11-01 20:34:05 [[32minfo[39m] [NapCat] 已通知主进程登录成功
+11-01 20:34:05 [[32minfo[39m] [NapCat] 已启用数据库辅助支持能力
+11-01 20:34:05 [[34mdebug[39m] 本账号数据/缓存目录： C:\Users\86182\Documents\Tencent Files\NapCat\data
+11-01 20:34:05 [[34mdebug[39m] [Core] [Config] 配置文件E:\qqbot\tools\NapCat\napcat\config\napcat_235286703.json加载 {"fileLog":false,"consoleLog":true,"fileLogLevel":"debug","consoleLogLevel":"info","packetBackend":"auto","packetServer":"","o3HookMode":1,"bypass":{"hook":false,"window":false,"module":false,"process":false,"container":false,"js":false},"autoTimeSync":true}
+11-01 20:34:05 [[32minfo[39m] [ServerTime] 时间同步完成，偏差 -308ms
+11-01 20:34:05 [[32minfo[39m] [Core] [Packet] 使用 NativePacketClient 作为后端
+11-01 20:34:05 [[32minfo[39m] [Core] [Packet] [PacketClient] NativePacketClient Hook 初始化成功 platform=win32.x64
+11-01 20:34:05 [[32minfo[39m] [AdapterManager] 开始初始化协议适配器...
+11-01 20:34:05 [[32minfo[39m] [Notice] [OneBot11] [network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:34:05 [[32minfo[39m] [AdapterManager] OneBot11 适配器初始化完成
+11-01 20:34:05 [[32minfo[39m] [AdapterManager] NapCat Protocol 适配器未启用，跳过初始化
+11-01 20:34:05 [[32minfo[39m] [AdapterManager] 协议适配器初始化完成，已加载 2 个适配器
+api call returning -1593700336
+11-01 20:34:21 [[32minfo[39m] Moon | 接收 <- 群聊 [酒馆(1016983755)] [「公子」·达达利亚(2798337198)] QQ机器人还是太吃内存了，一套下来要占服务器800M的内存。
+11-01 20:34:31 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 1
+11-01 20:34:43 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:34:43 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:34:43 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:34:43 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 恢复
+11-01 20:34:48 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:34:49 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:34:49 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:34:49 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接意外关闭
+11-01 20:34:49 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:34:49 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 发送生命周期失败 Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.connectEvent (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64645:18)
+    at WebSocket.<anonymous> (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64630:16)
+    at WebSocket.emit (node:events:518:28)
+    at WebSocket.setSocket (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:271:10)
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:1043:15)
+    at ClientRequest.emit (node:events:518:28)
+    at Socket.socketOnData (node:_http_client:586:11)
+11-01 20:34:52 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 醒了 你还没睡？
+11-01 20:34:52 [[31merror[39m] Moon | [NapCat] [Error] unhandledRejection: Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.handleMessage (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64669:16)
+11-01 20:34:54 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:34:54 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:34:59 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:34:59 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:34:59 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:35:00 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:35:00 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:35:00 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:35:04 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:04 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:04 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:35:09 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:09 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:12 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:35:12 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:35:12 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:35:12 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 1
+11-01 20:35:14 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:14 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:17 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:35:19 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:19 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:24 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:24 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:29 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:29 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:34 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:34 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:39 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:39 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:44 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:44 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:49 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:49 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:54 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:54 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:35:59 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:35:59 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:04 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:04 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:09 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:09 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:14 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:14 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:19 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:19 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:24 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:24 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:29 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:29 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:34 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:34 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:50 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:50 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:36:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:36:55 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:00 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:05 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:10 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:15 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:20 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:25 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:25 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:30 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:30 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:35 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:35 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: Unexpected server response: 403
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:944:7)
+    at ClientRequest.emit (node:events:518:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:704:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+    at Socket.socketOnData (node:_http_client:546:22)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+11-01 20:37:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接意外关闭
+11-01 20:37:40 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)
+11-01 20:37:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8080/onebot/v11/ws) 连接错误 Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1610:16)
+11-01 20:37:45 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:37:57 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 醒了 你还没睡？
+11-01 20:38:01 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:02 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 1
+11-01 20:38:05 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:06 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:09 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 又来一个
+11-01 20:38:12 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:12 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:12 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:38:13 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 你干嘛
+11-01 20:38:15 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:15 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:15 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:15 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:38:15 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 正在打开 Moon
+11-01 20:38:18 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:18 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) Moon 没打开： ...
+11-01 20:38:18 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:18 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:18 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 20:38:20 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:24 [[32minfo[39m] Moon | 接收 <- 群聊 [酒馆(1016983755)] [🤡(1369630301)] [图片]
+11-01 20:38:26 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 你这循环了吗 ...
+11-01 20:38:40 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:42 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:42 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:38:43 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 为什么没把你打开
+11-01 20:38:45 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:38:48 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 打开啥 我这不是在吗 ...
+11-01 20:39:13 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:39:13 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:39:13 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:13 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:13 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 发送生命周期失败 Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.connectEvent (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64645:18)
+    at WebSocket.<anonymous> (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64630:16)
+    at WebSocket.emit (node:events:518:28)
+    at WebSocket.setSocket (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:271:10)
+    at ClientRequest.<anonymous> (E:\qqbot\tools\NapCat\napcat\node_modules\ws\lib\websocket.js:1043:15)
+    at ClientRequest.emit (node:events:518:28)
+    at Socket.socketOnData (node:_http_client:586:11)
+11-01 20:39:13 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 已恢复完成。 ...
+11-01 20:39:13 [[31merror[39m] Moon | [NapCat] [Error] unhandledRejection: Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.handleMessage (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64669:16)
+11-01 20:39:18 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:18 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:18 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:39:18 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:39:21 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:39:23 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:23 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:23 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 20:39:27 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:39:27 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:39:28 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:28 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:28 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:39:28 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 你干嘛
+11-01 20:39:28 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 醒了 你还没睡？
+11-01 20:39:30 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:39:32 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:39:33 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:33 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:33 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 检修
+11-01 20:39:33 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) 正在打开 Moon
+11-01 20:39:36 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更前:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8080/onebot/v11/ws, : 已启动
+
+11-01 20:39:36 [[32minfo[39m] Moon | [Notice] [OneBot11] 配置变更后:
+[network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 20:39:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:36 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:39:36 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:36 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:39:36 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 20:39:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:41 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:39:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:50 [[32minfo[39m] Moon | 接收 <- 群聊 [酒馆(1016983755)] [🤡(1369630301)] 第一天发呆10小时，30天模拟完发呆率12.8%，找原因，是因为从十五天开始每天都在想吃泡面，没时间发呆了，后十五天发呆时间都是0
+11-01 20:39:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:51 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:39:56 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:39:56 [[32minfo[39m] Moon | 接收 <- 群聊 [酒馆(1016983755)] [🤡(1369630301)] 看笑了
+11-01 20:40:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:01 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:06 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:11 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) [表情 /散味儿]
+11-01 20:40:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:11 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:14 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:40:14 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:40:14 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 20:40:14 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 人呢
+11-01 20:40:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:16 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:19 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 20:40:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:21 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:26 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:31 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:36 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:41 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:46 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 20:40:47 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 20:40:47 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接

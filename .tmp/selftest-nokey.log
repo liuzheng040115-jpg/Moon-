@@ -1,0 +1,4 @@
+11-01 00:19:51 [SUCCESS] nonebot | NoneBot is initializing...
+11-01 00:19:52 [WARNING] ai_chat | 模型调用失败: 还没配置 API Key：请在 .env 里填写 DEEPSEEK_API_KEY 后重启机器人 | 
+11-01 00:19:52 [WARNING] ai_chat | 模型调用失败: 还没配置 API Key：请在 .env 里填写 DEEPSEEK_API_KEY 后重启机器人 | 
+11-01 00:19:53 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 10001 closed by peer

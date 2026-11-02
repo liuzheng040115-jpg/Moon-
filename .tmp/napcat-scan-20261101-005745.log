@@ -1,0 +1,95 @@
+NapCat Shell App Loading...
+11-01 00:57:46 [[32minfo[39m] [PacketHandler] 加载成功
+11-01 00:57:46 [[32minfo[39m] [Napi2NativeLoader] 加载成功
+11-01 00:57:46 [[32minfo[39m] [FFmpeg] 检查 Native Addon 可用性...
+11-01 00:57:46 [[32minfo[39m] [FFmpeg] ✓ 使用 Native Addon 适配器
+11-01 00:57:46 [[32minfo[39m] [PacketHandler] 初始化成功
+11-01 00:57:46 [[32minfo[39m] [NapCat] [Core] NapCat.Core Version: 4.18.41
+11-01 00:57:46 [[32minfo[39m] [NapCat] [WebUi] WebUi Token: 7be0fea301e6
+11-01 00:57:46 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://127.0.0.1:6099/webui?token=7be0fea301e6
+11-01 00:57:46 [[32minfo[39m] [NapCat] [WebUi] WebUi User Panel Url: http://[::]:6099/webui?token=7be0fea301e6
+11-01 00:57:46 [[32minfo[39m] 等待网络连接...
+11-01 00:57:47 [[32minfo[39m] 网络已连接
+11-01 00:57:47 [[32minfo[39m] 没有 -q 指令指定快速登录，将使用二维码登录方式
+11-01 00:57:47 [[32minfo[39m] 可用于快速登录 of QQ：
+1. 235286703 Moon
+2. 1450520453 明天阵雨转晴
+3. 2055392980 Moon
+4. 3680764546 Moon
+11-01 00:57:47 [[33mwarn[39m] 请扫描下面的二维码，然后在手Q上授权登录：
+11-01 00:57:47 [[33mwarn[39m] 
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀ █▀▀▀ ▀▀▄▀▄▀  ▄ █ ▄▄▄▄▄ █
+█ █   █ █▀ ▄ █▀█ ▀▀▄█▄ ▀▄▄█ █   █ █
+█ █▄▄▄█ █▀█ █▄█▄▀▀█▄█ ▄▄███ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ █▄▀ █▄█ ▀ ▀ █▄▄▄▄▄▄▄█
+█    ▄█▄▄  ▄█▄▄▀█▄▀▀ ▀▄▄██▄▀▄█▄▀ ▀█
+█▀█▀▄▄ ▄▄▄ ▀ ▄██▄▀▄▀█▀ ▄▀█▀▀▄ ▄▀▄██
+██▄█▄▀ ▄▄█ ▀▄▀▄▀▄▀▄▀▄▀█▄▄▄▄▀ ▄▄█▀▀█
+█▄▄ ▀ ▄▄ ▀▄▀█▀██▄▀██▀▀▀ █▄  ▀██▀▄██
+█ ▄██ ▄▄ ▄█ █▄▄▀▄█▄▄▀▀██▄▄▄▀█▄▀█ ▀█
+█▄ ▄▀▄▀▄█▀▄█ ▄██ ▀▄ █▄  ██ ▄▀█▄▀▄██
+█ ▀█ ▄ ▄▀▀ ▄▄▀▄▀▀▀▀█▄  ▄ ▀█▀█▄▀█ ▀█
+█ █ █▄▀▄█ ▄ █▀█▀▄▄▄ ██▀▄▀▀  ▄  ▀▄██
+█▄██▄██▄█▀ ██▄▄▀ ▀█▀ ▄▄ ▄ ▄▄▄  ▀█ █
+█ ▄▄▄▄▄ █▄▀█ ▄▄▄ █▄▀██ █  █▄█ ▀ ▄██
+█ █   █ █ ▄ ▄ ▄▀▀ ▄▀▀▄▀▀▀▄ ▄  ▄█▄██
+█ █▄▄▄█ █   █▄██▄▀█▄█▀ █ █▄▄ ▀▀ ▄██
+█▄▄▄▄▄▄▄█▄▄▄██▄█▄█▄████▄█▄██▄▄▄█▄██
+
+二维码解码URL: https://txz.qq.com/p?k=LOSR4SLo-FX0d08YfLmE8eNe2ZFafXCL&f=1600001604
+如果控制台二维码无法扫码，可以复制解码url到二维码生成网站生成二维码再扫码，也可以打开下方的二维码路径图片进行扫码。
+11-01 00:57:47 [[33mwarn[39m] 二维码已保存到 E:\qqbot\tools\NapCat\napcat\cache\qrcode.png
+11-01 00:58:22 [[32minfo[39m] [Core] [Login] 二维码已被扫描，等待确认...
+11-01 00:58:29 [[32minfo[39m] [NapCat] [Fork] Worker进程已登录成功，切换到正常重试策略
+11-01 00:58:29 [[32minfo[39m] [NapCat] 已通知主进程登录成功
+11-01 00:58:29 [[32minfo[39m] [NapCat] 已启用数据库辅助支持能力
+11-01 00:58:29 [[34mdebug[39m] 本账号数据/缓存目录： C:\Users\86182\Documents\Tencent Files\NapCat\data
+11-01 00:58:29 [[34mdebug[39m] [Core] [Config] 配置文件E:\qqbot\tools\NapCat\napcat\config\napcat_235286703.json加载 {"fileLog":false,"consoleLog":true,"fileLogLevel":"debug","consoleLogLevel":"info","packetBackend":"auto","packetServer":"","o3HookMode":1,"bypass":{"hook":false,"window":false,"module":false,"process":false,"container":false,"js":false},"autoTimeSync":true}
+11-01 00:58:29 [[32minfo[39m] [ServerTime] 时间同步完成，偏差 285ms
+11-01 00:58:29 [[32minfo[39m] [Core] [Packet] 使用 NativePacketClient 作为后端
+11-01 00:58:29 [[32minfo[39m] [Core] [Packet] [PacketClient] NativePacketClient Hook 初始化成功 platform=win32.x64
+11-01 00:58:30 [[32minfo[39m] [AdapterManager] 开始初始化协议适配器...
+11-01 00:58:30 [[32minfo[39m] [Notice] [OneBot11] [network] 配置加载
+WebSocket反向服务: ws://127.0.0.1:8643/ws, : 已启动
+
+11-01 00:58:30 [[32minfo[39m] [AdapterManager] OneBot11 适配器初始化完成
+11-01 00:58:30 [[32minfo[39m] [AdapterManager] NapCat Protocol 适配器未启用，跳过初始化
+11-01 00:58:30 [[32minfo[39m] [AdapterManager] 协议适配器初始化完成，已加载 2 个适配器
+11-01 00:58:47 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 00:58:47 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) ⚠️ 运行出错：Cannot read properties of undefined (reading 'current') ...
+11-01 00:58:57 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 00:58:58 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 00:58:58 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 00:58:58 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 啊？
+11-01 00:58:58 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) ⚠️ 运行出错：Cannot read properties of undefined (reading 'current') ...
+11-01 00:59:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 00:59:11 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 00:59:11 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 00:59:11 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 00:59:11 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 恢复
+11-01 00:59:11 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) ⚠️ 运行出错：Cannot read properties of undefined (reading 'current') ...
+11-01 00:59:16 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 01:00:15 [[32minfo[39m] Moon | 接收 <- 临时消息 (2747277822)
+11-01 01:00:26 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 01:01:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 01:01:13 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 01:02:13 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 01:02:13 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 01:02:13 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 01:02:14 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 恢复
+11-01 01:02:14 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) ⚠️ 运行出错：Cannot read properties of undefined (reading 'current') ...
+11-01 01:02:18 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 01:04:59 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 反向WebSocket (ws://127.0.0.1:8643/ws) 连接意外关闭
+11-01 01:04:59 [[31merror[39m] Moon | [OneBot] [WebSocket Client] 在 5 秒后尝试重新连接
+11-01 01:04:59 [[31merror[39m] Moon | [NapCat] [Error] unhandledRejection: Error: WebSocket is not open
+    at file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64608:118
+    at new Promise (<anonymous>)
+    at FD.checkStateAndReply (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64607:12)
+    at FD.handleMessage (file:///E:/qqbot/tools/NapCat/napcat/napcat.mjs:64669:16)
+11-01 01:17:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 对方正在输入...
+11-01 01:17:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 01:17:02 [[32minfo[39m] Moon | [Notice] [输入状态] 1450520453 
+11-01 01:17:02 [[32minfo[39m] Moon | 接收 <- 私聊 (1450520453) 你好
+11-01 01:17:02 [[32minfo[39m] Moon | 发送 -> 私聊 (1450520453) ⚠️ 运行出错：Cannot read properties of undefined (reading 'current') ...

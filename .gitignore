@@ -1,30 +1,21 @@
-.venv/
-.tmp*/
-.backup/
-dist/
-server.secret.md
-.pipcache/
-data/
-tools/
-__pycache__/
-*.pyc
-.env
-nonebot.log
-selftest-bot.log
+# 只排除两类东西：消息记录、二维码截图。
+# 其余全部上传，目的是能在另一台机器上原封不动复活这个机器人。
 
-login-qrcode.png
+# ---- 消息记录 ----
+data/bot.db
+data/bot.db-wal
+data/bot.db-shm
 
-# 扫码截图和二维码：本地登录动作留下的临时文件，不进仓库
+# ---- 二维码 / 扫码截图 ----
 assets/qr-*.png
 assets/qrcode-login.png
 assets/*qrcode*.png
 assets/login-qrcode.png
+login-qrcode.png
+dist/qrcode.png
+tools/NapCat/napcat/cache/qrcode.png
 
-# 服务器存档（含实例 ID、公网 IP）和本机调试脚本
-deploy/tencent/SERVER.md
-deploy/tencent/probe*.sh
-
-# 改代码时留下的备份
-*.bak-dsh
-*.bak-moon*
-*.bak
+# ---- 超出 GitHub 单文件 100MB 限制的上游安装包 ----
+# NapCat 已经解压到 tools/NapCat/ 了，这个 zip 是多余的；
+# 需要时用 scripts/setup_napcat.ps1 重新下载。
+tools/NapCat.Shell.Windows.Node.zip

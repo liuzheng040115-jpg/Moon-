@@ -1,0 +1,197 @@
+11-01 00:18:39 [SUCCESS] nonebot | NoneBot is initializing...
+11-01 00:18:39 [INFO] nonebot | Current Env: prod
+11-01 00:18:39 [SUCCESS] nonebot | Succeeded to load plugin "relay_switch" from "plugins.relay_switch"
+11-01 00:18:39 [SUCCESS] nonebot | Succeeded to load plugin "ai_chat" from "plugins.ai_chat"
+11-01 00:18:39 [INFO] __main__ | 已加载插件: ai_chat, relay_switch
+11-01 00:18:39 [SUCCESS] nonebot | Running NoneBot...
+11-01 00:18:39 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+11-01 00:18:39 [INFO] uvicorn | Started server process [30052]
+11-01 00:18:39 [INFO] uvicorn | Waiting for application startup.
+11-01 00:18:39 [INFO] __main__ | OneBot v11 反向 WS 监听: ws://127.0.0.1:18099/onebot/v11/ws
+11-01 00:18:39 [INFO] __main__ | 请在 NapCat / Lagrange 中把「反向 WebSocket」指向该地址，token 与 ONEBOT_ACCESS_TOKEN 一致
+11-01 00:18:39 [INFO] uvicorn | Application startup complete.
+11-01 00:18:39 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:18099 (Press CTRL+C to quit)
+11-01 00:18:40 [INFO] uvicorn | 127.0.0.1:57597 - "GET /healthz HTTP/1.1" 200
+11-01 00:18:40 [INFO] uvicorn | 127.0.0.1:57598 - "WebSocket /onebot/v11/ws" [accepted]
+11-01 00:18:40 [INFO] websockets | connection open
+11-01 00:18:40 [INFO] nonebot | OneBot V11 | Bot 10001 connected
+11-01 00:18:41 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 101 from 22222 '你好'
+11-01 00:18:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:41 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:41 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 120 from 33333 '你好'
+11-01 00:18:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:41 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:42 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 102 from 22222 '我叫什么'
+11-01 00:18:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:42 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:42 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 113 from 22222 '测试出戏'
+11-01 00:18:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:42 [WARNING] ai_chat | 回复出戏，重写一次: 我是 AI 助手，不是真人
+11-01 00:18:42 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:42 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 103 from 33333@[群:55555] '[at:qq=10001] 群里你好啊'
+11-01 00:18:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:42 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被 @
+11-01 00:18:42 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:42 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 134 from 33333@[群:55555] '[at:qq=10001]'
+11-01 00:18:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:42 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被 @
+11-01 00:18:42 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:42 [WARNING] nonebot | OneBot V11 | Error when getting message reply info: 5 validation errors for Reply
+time
+  Field required [type=missing, input_value={'message_id': 22470}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+message_type
+  Field required [type=missing, input_value={'message_id': 22470}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+real_id
+  Field required [type=missing, input_value={'message_id': 22470}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+sender
+  Field required [type=missing, input_value={'message_id': 22470}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+message
+  Field required [type=missing, input_value={'message_id': 22470}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.14/v/missing
+11-01 00:18:42 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 128 from 33333@[群:55555] '[reply:id=800006]你刚才说什么'
+11-01 00:18:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:42 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被回复
+11-01 00:18:42 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:42 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 110 from 33333@[群:55555] '小明今天又鸽了'
+11-01 00:18:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:42 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:43 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 111 from 33333@[群:55555] '[at:qq=10001] 你怎么看'
+11-01 00:18:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:43 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被 @
+11-01 00:18:43 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:43 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 124 from 22222@[群:55555] '[at:qq=10001] 管理员在群里说话'
+11-01 00:18:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:43 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被 @
+11-01 00:18:43 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:43 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 116 from 22222 '帮我换签名'
+11-01 00:18:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:43 [INFO] ai_chat | 已执行资料修改: sign
+11-01 00:18:43 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:44 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 142 from 22222 '文艺点那种'
+11-01 00:18:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:44 [INFO] ai_chat | 已执行资料修改: sign
+11-01 00:18:44 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:44 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 141 from 22222 '发条空间 今天天气不错'
+11-01 00:18:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:44 [INFO] ai_chat | 已执行资料修改: qzone
+11-01 00:18:44 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:45 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 118 from 33333 '测试动作'
+11-01 00:18:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:45 [WARNING] ai_chat | 忽略没有改资料意图的动作: ('sign', '乱改')
+11-01 00:18:45 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:45 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 119 from 22222 '测试头像'
+11-01 00:18:45 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:45 [WARNING] ai_chat | 忽略来源不明的头像 URL: https://evil.example/x.jpg
+11-01 00:18:45 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:47 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 117 from 33333@[群:55555] '[at:qq=10001]帮我换签名'
+11-01 00:18:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:47 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被 @
+11-01 00:18:47 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:47 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 122 from 33333@[群:55555] '大肥鱼你在吗'
+11-01 00:18:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:47 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被叫名字
+11-01 00:18:47 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:48 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 123 from 33333@[群:55555] '大肥鱼别说话'
+11-01 00:18:48 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:48 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被叫名字
+11-01 00:18:48 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:50 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 121 from 22222 '测试分段'
+11-01 00:18:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:50 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:53 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 125 from 22222 '[image:url=http://example.com/test.png,summary=[图片]]看看这个'
+11-01 00:18:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:53 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:53 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 126 from 22222 '来个表情'
+11-01 00:18:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:53 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:54 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 131 from 22222 '发收藏'
+11-01 00:18:54 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:55 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:56 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 137 from 33333@[群:55555] '[at:qq=10001]发收藏'
+11-01 00:18:56 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:56 [INFO] ai_chat | 群 55555 唤醒，高读 180 秒 被 @
+11-01 00:18:56 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:18:58 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 138 from 33333 '发收藏'
+11-01 00:18:58 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:18:59 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:00 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 139 from 22222 '测试自带'
+11-01 00:19:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:19:01 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:01 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 127 from 22222 '测试语气'
+11-01 00:19:01 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:19:01 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:03 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 136 from 22222 '测试句号'
+11-01 00:19:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:19:03 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:03 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 140 from 22222 '/proactive'
+11-01 00:19:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2559)
+11-01 00:19:03 [INFO] ai_chat | 主动私聊: 在干嘛
+11-01 00:19:03 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2559) running complete
+11-01 00:19:05 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 104 from 22222 '/help'
+11-01 00:19:05 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2571)
+11-01 00:19:05 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2571) running complete
+11-01 00:19:07 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 105 from 22222 '/reset'
+11-01 00:19:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2597)
+11-01 00:19:07 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2597) running complete
+11-01 00:19:09 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 106 from 22222 '重新开始'
+11-01 00:19:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:19:09 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:09 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 129 from 22222 '今天群里都说了些什么'
+11-01 00:19:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:19:09 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:09 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 130 from 22222 '继续'
+11-01 00:19:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:19:09 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:09 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 133 from 22222 '去群里说 测试群消息'
+11-01 00:19:09 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2109)
+11-01 00:19:09 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2109) running complete
+11-01 00:19:11 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 107 from 22222 '/reset all'
+11-01 00:19:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2597)
+11-01 00:19:11 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2597) running complete
+11-01 00:19:13 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 109 from 22222 '/status'
+11-01 00:19:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2630)
+11-01 00:19:13 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2630) running complete
+11-01 00:19:14 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 108 from 33333 ' /reset all'
+11-01 00:19:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2597)
+11-01 00:19:14 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2597) running complete
+11-01 00:19:16 [SUCCESS] nonebot | OneBot V11 10001 | [message.private.friend]: Message 112 from 33333 '/help'
+11-01 00:19:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2571)
+11-01 00:19:16 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2571) running complete
+11-01 00:19:18 [SUCCESS] nonebot | OneBot V11 10001 | [message.group.normal]: Message 115 from 22222@[群:55555] '[at:qq=10001] /status'
+11-01 00:19:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2630)
+11-01 00:19:18 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2630) running complete
+11-01 00:19:19 [SUCCESS] nonebot | OneBot V11 10001 | [request.friend]: {'time': 1793463559, 'self_id': 10001, 'post_type': 'request', 'request_type': 'friend', 'user_id': 44444, 'flag': 'friend-ok', 'comment': '你好，交个朋友'}
+11-01 00:19:19 [INFO] nonebot | Event will be handled by Matcher(type='request', module=plugins.ai_chat, lineno=2035)
+11-01 00:19:19 [INFO] ai_chat | 已通过好友请求 44444：你好，交个朋友
+11-01 00:19:19 [INFO] nonebot | Matcher(type='request', module=plugins.ai_chat, lineno=2035) running complete
+11-01 00:19:21 [SUCCESS] nonebot | OneBot V11 10001 | [request.friend]: {'time': 1793463561, 'self_id': 10001, 'post_type': 'request', 'request_type': 'friend', 'user_id': 44445, 'flag': 'friend-spam', 'comment': '刷单兼职日结，加我'}
+11-01 00:19:21 [INFO] nonebot | Event will be handled by Matcher(type='request', module=plugins.ai_chat, lineno=2035)
+11-01 00:19:21 [INFO] ai_chat | 已拒绝好友请求 44445：像广告（刷单）（刷单兼职日结，加我）
+11-01 00:19:21 [INFO] nonebot | Matcher(type='request', module=plugins.ai_chat, lineno=2035) running complete
+11-01 00:19:22 [SUCCESS] nonebot | OneBot V11 10001 | [request.group.invite]: {'time': 1793463562, 'self_id': 10001, 'post_type': 'request', 'request_type': 'group', 'sub_type': 'invite', 'group_id': 66666, 'user_id': 22222, 'flag': 'group-ok', 'comment': '邀请你加入群聊'}
+11-01 00:19:22 [INFO] nonebot | Event will be handled by Matcher(type='request', module=plugins.ai_chat, lineno=2035)
+11-01 00:19:22 [INFO] ai_chat | 已同意管理员拉她进的群 66666
+11-01 00:19:22 [INFO] nonebot | Matcher(type='request', module=plugins.ai_chat, lineno=2035) running complete
+11-01 00:19:23 [SUCCESS] nonebot | OneBot V11 10001 | [request.group.invite]: {'time': 1793463563, 'self_id': 10001, 'post_type': 'request', 'request_type': 'group', 'sub_type': 'invite', 'group_id': 66667, 'user_id': 33333, 'flag': 'group-stranger', 'comment': '邀请你加入群聊'}
+11-01 00:19:23 [INFO] nonebot | Event will be handled by Matcher(type='request', module=plugins.ai_chat, lineno=2035)
+11-01 00:19:23 [INFO] nonebot | Matcher(type='request', module=plugins.ai_chat, lineno=2035) running complete
+11-01 00:19:24 [SUCCESS] nonebot | OneBot V11 10001 | [notice.friend_add]: {'time': 1793463564, 'self_id': 10001, 'post_type': 'notice', 'notice_type': 'friend_add', 'user_id': 44444}
+11-01 00:19:24 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:19:24 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:19:25 [SUCCESS] nonebot | OneBot V11 10001 | [notice.friend_add]: {'time': 1793463565, 'self_id': 10001, 'post_type': 'notice', 'notice_type': 'friend_add', 'user_id': 44446}
+11-01 00:19:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:19:25 [INFO] ai_chat | 新好友：newbie（44446）
+11-01 00:19:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:19:26 [SUCCESS] nonebot | OneBot V11 10001 | [notice.group_increase.invite]: {'time': 1793463566, 'self_id': 10001, 'post_type': 'notice', 'notice_type': 'group_increase', 'sub_type': 'invite', 'user_id': 10001, 'group_id': 55555, 'operator_id': 22222}
+11-01 00:19:26 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:19:26 [INFO] ai_chat | 进群：小团体（55555），邀请人 22222
+11-01 00:19:26 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:19:27 [SUCCESS] nonebot | OneBot V11 10001 | [notice.group_decrease.kick]: {'time': 1793463567, 'self_id': 10001, 'post_type': 'notice', 'notice_type': 'group_decrease', 'sub_type': 'kick', 'user_id': 10001, 'group_id': 55555, 'operator_id': 33333}
+11-01 00:19:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:19:27 [INFO] ai_chat | 被移出群：小团体（55555）
+11-01 00:19:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:19:28 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 10001 closed by peer

@@ -1,0 +1,1088 @@
+11-02 10:07:53 [SUCCESS] nonebot | NoneBot is initializing...
+11-02 10:07:53 [INFO] nonebot | Current Env: prod
+11-02 10:07:53 [SUCCESS] nonebot | Succeeded to load plugin "relay_switch" from "plugins.relay_switch"
+11-02 10:07:54 [INFO] ai_chat | ???????? 48 ???? 1 ?
+11-02 10:07:54 [SUCCESS] nonebot | Succeeded to load plugin "ai_chat" from "plugins.ai_chat"
+11-02 10:07:54 [SUCCESS] nonebot | Succeeded to load plugin "channel_gate" from "plugins.channel_gate"
+11-02 10:07:54 [INFO] __main__ | ?????: ai_chat, channel_gate, relay_switch
+11-02 10:07:54 [SUCCESS] nonebot | Running NoneBot...
+11-02 10:07:54 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+11-02 10:07:54 [INFO] uvicorn | Started server process [2540]
+11-02 10:07:54 [INFO] uvicorn | Waiting for application startup.
+11-02 10:07:54 [INFO] __main__ | OneBot v11 ?? WS ??: ws://127.0.0.1:8080/onebot/v11/ws
+11-02 10:07:54 [INFO] __main__ | ?? NapCat / Lagrange ????? WebSocket???????token ? ONEBOT_ACCESS_TOKEN ??
+11-02 10:07:54 [INFO] uvicorn | Application startup complete.
+11-02 10:07:54 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+11-02 10:07:55 [INFO] uvicorn | 127.0.0.1:65458 - "WebSocket /onebot/v11/ws" [accepted]
+11-02 10:07:55 [INFO] websockets | connection open
+11-02 10:07:55 [INFO] nonebot | OneBot V11 | Bot 235286703 connected
+11-02 10:08:08 [INFO] uvicorn | 127.0.0.1:52953 - "GET /healthz HTTP/1.1" 200
+11-02 10:10:17 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585417, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:10:17 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:10:17 [INFO] channel_gate | ??????? dsh?????NoneBot????? QQ ???????????? .tmp/active-channel.txt ?? legacy
+11-02 10:10:17 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:10:17 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585417, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:10:17 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:10:17 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:10:18 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585418, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:10:18 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:10:18 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:10:18 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1276985797 from 1450520453 '??'
+11-02 10:10:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 10:10:18 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running is cancelled
+11-02 10:10:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:10:18 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:10:22 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585422, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:10:22 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:10:22 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:10:40 [INFO] ai_chat | ????: ???????
+11-02 10:11:17 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585477, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:11:17 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:17 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585481, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:11:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585481, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:11:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:21 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 338549166 from 1450520453 '????????'
+11-02 10:11:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:11:22 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585482, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:11:22 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:22 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:28 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:11:36 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585496, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:11:36 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:36 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585498, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:11:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585501, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:11:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:46 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585506, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:11:46 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:46 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:47 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585507, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:11:47 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:11:47 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:11:47 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 843487255 from 1450520453 '????'
+11-02 10:11:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:11:52 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:12:00 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585520, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:12:00 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:00 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585522, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585522, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:02 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1354730978 from 1450520453 '????????'
+11-02 10:12:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:12:05 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585525, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:12:05 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:05 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:07 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:12:16 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585536, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:16 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:16 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585540, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:12:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585541, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585541, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:21 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 253098863 from 1450520453 '?????'
+11-02 10:12:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:12:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585545, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:12:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:28 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:12:32 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585552, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:12:32 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:32 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585557, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:12:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585558, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585558, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:50 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585570, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:50 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:50 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:50 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585570, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:50 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:50 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:50 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 2072165884 from 1450520453 '??????'
+11-02 10:12:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:12:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585571, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:12:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:12:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:12:58 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:13:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585632, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:13:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:13:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:13:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585632, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:13:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:13:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:13:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585632, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:13:52 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 358578847 from 1450520453 '???'
+11-02 10:13:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:13:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:13:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:13:57 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585637, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:13:57 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:13:57 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:13:59 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:14:06 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585646, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:14:06 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:06 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:07 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585647, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:07 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:07 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:07 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585647, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:07 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:07 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:07 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 961064681 from 1450520453 '??'
+11-02 10:14:07 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:14:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585650, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:14:10 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:10 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:11 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585651, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:14:11 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:11 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:14 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:14:19 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585659, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:19 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:19 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585661, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585661, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:21 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1503654227 from 1450520453 '????'
+11-02 10:14:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:14:28 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:14:35 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585675, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:14:35 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:35 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585677, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585677, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:37 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 124517893 from 1450520453 '??????'
+11-02 10:14:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:14:40 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585680, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:14:40 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:40 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:41 [INFO] ai_chat | ???????: '??????? ???'
+11-02 10:14:41 [INFO] ai_chat | ???????: sign
+11-02 10:14:44 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:14:47 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585687, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:14:47 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:47 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:14:56 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585696, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:14:56 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:14:56 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:15:01 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585701, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:15:01 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:15:01 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:15:03 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585703, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:15:03 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:15:03 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:15:03 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585703, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:15:03 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 901484032 from 1450520453 '?????'
+11-02 10:15:03 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:15:03 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:15:03 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:15:09 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:15:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585715, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:15:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:15:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:16:57 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1913670262 from 1450520453 '??'
+11-02 10:16:57 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:17:02 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:17:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585835, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:17:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:16 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585836, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:17:16 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:16 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:16 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585836, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:17:16 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:16 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:16 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 402706565 from 1450520453 '?????'
+11-02 10:17:16 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:17:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585840, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:17:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:22 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:17:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585861, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:17:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585861, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:17:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585861, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:17:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:42 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 973340728 from 1450520453 '??'
+11-02 10:17:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 10:17:42 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 10:17:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:17:46 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585866, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:17:46 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:46 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:46 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:17:48 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585868, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:17:48 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:48 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:49 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585869, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:17:49 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:49 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:53 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585873, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:17:53 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:53 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:53 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585873, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:17:53 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:53 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:53 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1763226504 from 1450520453 '??????'
+11-02 10:17:53 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:17:53 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585873, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:17:53 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:17:53 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:17:59 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:18:03 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585883, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:18:03 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:03 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:06 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585886, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:18:06 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:06 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:08 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585888, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:18:08 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:08 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:18 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585898, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:18:18 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:18 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:18 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585898, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:18:18 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:18 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:18 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 240718336 from 1450520453 '????????????'
+11-02 10:18:18 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:18:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585905, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:18:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:26 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:18:30 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585910, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:18:30 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:30 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585921, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:18:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:42 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585922, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:18:42 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:42 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:42 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 767783724 from 1450520453 '?????????'
+11-02 10:18:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:18:47 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:18:54 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585934, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:18:54 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:54 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:55 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585935, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:18:55 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:55 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:55 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585935, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:18:55 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:55 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:18:55 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 120108194 from 1450520453 '????'
+11-02 10:18:55 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:18:59 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585939, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:18:59 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:18:59 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:00 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:19:05 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585945, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:19:05 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:05 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:07 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585947, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:07 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:07 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585950, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:19:10 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:10 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:18 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585958, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:18 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:18 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:22 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585962, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:22 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:22 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:22 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585962, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:22 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:22 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:22 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1509750742 from 1450520453 '?????'
+11-02 10:19:22 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:19:26 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585966, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:19:26 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:26 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:28 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:19:30 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585970, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:30 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:30 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:30 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585970, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:30 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:30 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:30 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 839895063 from 1450520453 '???'
+11-02 10:19:30 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:19:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585971, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:19:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:35 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585975, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:19:35 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:35 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:38 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:19:40 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585980, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:19:40 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:40 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:43 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585983, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:43 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:43 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:43 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585983, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:43 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:43 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:43 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 2039436108 from 1450520453 '??'
+11-02 10:19:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 10:19:43 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 10:19:43 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:19:46 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585986, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:19:46 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:46 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585991, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:19:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:51 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:19:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585992, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793585992, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:19:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:19:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:19:52 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1830963158 from 1450520453 '??'
+11-02 10:19:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 10:19:52 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 10:19:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 10:19:55 [INFO] relay_switch | ??? DSH: ok=True detail=???????: dsh
+  ?????? DSH(dsh-onebot-qq)??,???????
+  NapCat ??????
+11-02 10:19:55 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running complete
+11-02 10:20:04 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586004, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:20:04 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:04 [INFO] channel_gate | ??????? dsh?????NoneBot????? QQ ???????????? .tmp/active-channel.txt ?? legacy
+11-02 10:20:04 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:20:05 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586005, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:20:05 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:05 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:20:08 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586008, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:20:08 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:08 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:20:08 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586008, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:20:08 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:08 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:20:08 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 571906867 from 1450520453 '??'
+11-02 10:20:08 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 10:20:08 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running is cancelled
+11-02 10:20:08 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:20:08 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:20:09 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586009, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:20:09 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:09 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:20:11 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586011, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:20:11 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:11 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:20:16 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586016, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:20:16 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:16 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:20:30 [INFO] ai_chat | ????: ??????? ????
+11-02 10:20:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586031, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:20:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:20:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586031, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:20:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:20:31 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 403720136 from 1450520453 '?????????'
+11-02 10:20:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:20:36 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:20:57 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586057, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:20:57 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:20:57 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:00 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586060, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:00 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:00 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:00 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586060, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:00 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:00 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:00 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 545294136 from 1450520453 '?????'
+11-02 10:21:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:21:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586062, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:21:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:07 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:21:09 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586069, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:21:09 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:09 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:13 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586073, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:13 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:13 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:13 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586073, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:13 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:13 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:13 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1254006893 from 1450520453 '???????'
+11-02 10:21:13 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:21:14 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586074, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:21:14 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:14 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:20 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:21:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586087, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:21:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:28 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586088, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:28 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:28 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:28 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586088, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:28 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:28 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:28 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 181852331 from 1450520453 '??'
+11-02 10:21:28 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:21:32 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586092, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:21:32 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:32 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:33 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586093, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:21:34 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:34 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:36 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:21:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586097, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586097, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:37 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 194058917 from 1450520453 '?????'
+11-02 10:21:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:21:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586098, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:21:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:45 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:21:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586111, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:21:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586111, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:21:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:21:56 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586116, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:21:56 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:21:56 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:01 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586121, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:22:01 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:01 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:01 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586121, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:22:01 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:01 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:01 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1777446297 from 1450520453 '?????????'
+11-02 10:22:01 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:22:08 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:22:13 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586133, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:22:13 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:13 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:14 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586134, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:22:14 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:14 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:14 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586134, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:22:14 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:14 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 891135411 from 1450520453 '??????'
+11-02 10:22:14 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:14 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:22:18 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586138, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:22:18 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:18 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:21 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:22:29 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586149, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:22:29 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:29 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:33 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586153, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:22:33 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:33 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:33 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586153, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:22:33 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:33 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:33 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 106543606 from 1450520453 '??????'
+11-02 10:22:33 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:22:34 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586154, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:22:34 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:34 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:41 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:22:53 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586173, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:22:53 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:53 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:22:58 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586178, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:22:58 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:22:58 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:00 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586180, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:23:00 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:00 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:00 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586180, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:23:00 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:00 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:00 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1351567590 from 1450520453 '????????'
+11-02 10:23:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:23:06 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586186, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:23:06 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:06 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:06 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:23:09 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586189, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:23:09 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:09 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:11 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586191, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:23:11 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:11 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:17 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586197, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:23:17 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:17 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:17 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586197, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:23:17 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:17 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:23:17 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1871841352 from 1450520453 '/??????'
+11-02 10:23:17 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:23:17 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:23:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586231, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:23:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:23:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:00 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586240, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:24:00 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:00 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586242, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:24:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586242, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:24:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:02 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1984964883 from 1450520453 '??'
+11-02 10:24:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:24:05 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586245, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:24:05 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:05 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:10 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:24:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586255, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:24:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586260, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:24:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586260, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:24:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586260, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:24:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:20 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 537313268 from 1450520453 '???'
+11-02 10:24:20 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:24:27 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:24:33 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586273, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:24:33 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:33 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:36 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586276, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:24:36 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:36 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:36 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586276, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:24:36 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:36 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:36 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 798991466 from 1450520453 '????????'
+11-02 10:24:36 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:24:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586278, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:24:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:44 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:24:48 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586288, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:24:48 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:48 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:24:53 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586293, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:24:53 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:24:53 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:25:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586302, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:25:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:25:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:25:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586302, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:25:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:25:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:25:02 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1460301499 from 1450520453 '??????????'
+11-02 10:25:02 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:25:12 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:25:24 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586324, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:25:24 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:25:24 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:25:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586325, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:25:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:25:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:25:26 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586326, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:25:26 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:25:26 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:25:26 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 70932160 from 1450520453 '????'
+11-02 10:25:26 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:25:29 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586329, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:25:29 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:25:29 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:25:34 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:25:46 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1024539418 from 1450520453 '[image:summary=,file=0701A7A698BC16663C8F7786AC301AD4.jpg,sub_type=0,url=https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhQbvCz6...,file_size=108534]'
+11-02 10:25:46 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:26:02 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:26:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586370, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:26:10 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:10 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:26:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586370, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:26:10 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:10 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:26:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586370, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:26:10 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:10 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:26:10 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1933072272 from 1450520453 '??'
+11-02 10:26:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 10:26:10 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 10:26:10 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:26:12 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586372, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:26:12 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:12 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:26:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586375, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:26:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:26:17 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 10:26:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586381, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:26:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:26:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586381, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:26:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:26:21 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1464064941 from 1450520453 '??'
+11-02 10:26:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 10:26:21 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 10:26:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 10:26:24 [INFO] relay_switch | ??? DSH: ok=True detail=???????: dsh
+  ?????? DSH(dsh-onebot-qq)??,???????
+  NapCat ??????
+11-02 10:26:24 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running complete
+11-02 10:26:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586387, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:26:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:27 [INFO] channel_gate | ??????? dsh?????NoneBot????? QQ ???????????? .tmp/active-channel.txt ?? legacy
+11-02 10:26:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:26:32 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586392, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:26:32 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:32 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:26:35 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586395, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:26:35 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:35 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:26:35 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793586395, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:26:35 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:26:35 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:26:35 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 929174861 from 1450520453 '???????????????'
+11-02 10:26:35 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:26:35 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:53:42 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588022, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:53:42 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:53:42 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:53:47 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588027, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:53:47 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:53:47 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:53:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588032, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:53:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:53:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:53:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588032, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:53:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:53:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:53:52 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1968613947 from 1450520453 '???????????'
+11-02 10:53:52 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:53:52 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:54:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588060, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:54:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588065, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:54:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588065, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:54:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588065, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:54:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:25 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 124668155 from 1450520453 '????????'
+11-02 10:54:25 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:54:25 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:54:40 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588080, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:54:40 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:40 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:44 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588084, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:54:44 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:44 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:44 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588084, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:54:44 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:44 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:44 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 910593642 from 1450520453 '??????'
+11-02 10:54:44 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:54:44 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:54:45 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588085, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:54:45 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:54:45 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:54:51 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1136843615 from 1450520453 '[image:summary=,file=0701A7A698BC16663C8F7786AC301AD4.jpg,sub_type=0,url=https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhQbvCz6...,file_size=108534]'
+11-02 10:54:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:54:51 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:56:00 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588160, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:56:00 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:00 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:56:05 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588165, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:56:05 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:05 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:56:07 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588167, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:56:07 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:07 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:56:08 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588168, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:56:08 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:08 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:56:08 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1378299867 from 1450520453 '????????'
+11-02 10:56:08 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:56:08 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:56:26 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588186, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:56:26 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:26 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:56:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588187, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:56:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:56:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588187, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:56:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:56:27 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1090946137 from 1450520453 '?????'
+11-02 10:56:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:56:27 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:56:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588191, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:56:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:56:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:57:46 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588266, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:57:46 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:57:46 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:57:47 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588267, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:57:47 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:57:47 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:57:47 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588267, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:57:47 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:57:47 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:57:47 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 140279918 from 1450520453 '??'
+11-02 10:57:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 10:57:47 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running is cancelled
+11-02 10:57:47 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 10:57:47 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 10:57:48 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588268, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:57:48 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:57:48 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:57:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588271, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:57:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:57:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 10:58:10 [INFO] ai_chat | ????: ????
+11-02 10:58:11 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588291, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:58:11 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:58:11 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:58:11 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588291, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:58:11 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:58:11 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:58:11 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 226946453 from 1450520453 '/??'
+11-02 10:58:11 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2764)
+11-02 10:58:12 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2764) running complete
+11-02 10:58:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588300, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 10:58:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:58:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:58:24 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588304, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:58:24 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:58:24 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:58:24 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588304, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:58:24 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:58:24 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:58:24 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 711917460 from 1450520453 '/??'
+11-02 10:58:24 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2705)
+11-02 10:58:24 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2705) running complete
+11-02 10:58:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588305, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 10:58:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:58:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 10:58:47 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588327, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 10:58:47 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 10:58:47 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:00:42 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1833064305 from 1450520453 '[image:summary=,file=8F27DDEBBCE839D3DC72233F319D3745.jpg,sub_type=0,url=https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhRNaRAw...,file_size=94401]'
+11-02 11:00:42 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:00:59 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 11:01:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588470, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:01:10 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:10 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:12 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588472, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:01:12 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:12 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:12 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588472, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:01:12 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:12 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:12 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 163135583 from 1450520453 '??????'
+11-02 11:01:12 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:01:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588475, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 11:01:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:20 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 11:01:30 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588490, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:01:30 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:30 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:35 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588495, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 11:01:35 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:35 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588497, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:01:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588497, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:01:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:01:37 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1565042525 from 1450520453 '?????????'
+11-02 11:01:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:01:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:01:44 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 11:02:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588522, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:02:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:02:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:08:36 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588916, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:08:36 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:36 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:08:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588917, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:08:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:08:37 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588917, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:08:37 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:37 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:08:37 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1679090247 from 1450520453 '??'
+11-02 11:08:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 11:08:37 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 11:08:37 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:08:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588918, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:08:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:08:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588918, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:08:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:08:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588918, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:08:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:08:38 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 2096382506 from 1450520453 '??'
+11-02 11:08:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 11:08:38 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 11:08:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 11:08:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588921, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 11:08:41 [INFO] relay_switch | ??? DSH: ok=True detail=???????: dsh
+  ?????? DSH(dsh-onebot-qq)??,???????
+  NapCat ??????
+11-02 11:08:41 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running complete
+11-02 11:08:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:41 [INFO] channel_gate | ??????? dsh?????NoneBot????? QQ ???????????? .tmp/active-channel.txt ?? legacy
+11-02 11:08:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:08:43 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588923, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:08:43 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:43 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:08:45 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 11:08:48 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588928, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 11:08:48 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:08:48 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:09:16 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588956, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:09:16 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:09:16 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:09:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588967, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:09:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:09:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:09:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793588967, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:09:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:09:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:09:27 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 31569210 from 1450520453 '??github??????'
+11-02 11:09:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:09:27 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 11:10:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589010, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:10:10 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:10:10 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:10:10 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589010, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:10:11 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:10:11 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:10:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589015, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 11:10:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:10:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:10:25 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589025, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:10:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:10:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:10:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589038, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:10:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:10:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:10:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589038, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:10:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:10:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:10:38 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1501082947 from 1450520453 '??????????ai???????'
+11-02 11:10:38 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:10:38 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 11:11:24 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589084, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:11:25 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:11:25 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:17:24 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589444, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:17:24 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:17:24 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:19:50 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589590, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:19:50 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:19:50 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:19:50 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589590, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:19:50 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:19:50 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:19:50 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589590, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:19:50 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:19:50 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:19:50 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 61473590 from 1450520453 '??'
+11-02 11:19:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 11:19:50 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running is cancelled
+11-02 11:19:50 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:19:50 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 11:19:52 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589592, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 11:19:52 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:19:52 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:19:55 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589595, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 11:19:55 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:19:55 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 11:20:12 [INFO] ai_chat | ????: ????
+11-02 11:20:20 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589620, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:20:20 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:20:20 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:21:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589701, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:21:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:21:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:21:41 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589701, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:21:41 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:21:41 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:21:41 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 372745757 from 1450520453 '???qq?2757945736??????'
+11-02 11:21:41 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:21:49 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 11:22:56 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589776, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:22:56 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:22:56 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:23:42 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793589822, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 11:23:42 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:23:42 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:24:00 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1284408367 from 1450520453 '[json:data={"app":"com.tencent.contact.lua","desc":"","view":"contact","bizsrc...]'
+11-02 11:24:00 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 11:24:00 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 11:47:43 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.bot_offline]: {'time': 1793591263, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'bot_offline', 'user_id': 235286703, 'tag': '????', 'message': '??????????????????'}
+11-02 11:47:43 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 11:47:43 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 11:47:47 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 235286703 closed by peer
+11-02 12:28:26 [INFO] uvicorn | 127.0.0.1:59449 - "GET /healthz HTTP/1.1" 200
+11-02 12:29:53 [INFO] uvicorn | 127.0.0.1:62127 - "WebSocket /onebot/v11/ws" [accepted]
+11-02 12:29:53 [INFO] websockets | connection open
+11-02 12:29:53 [INFO] nonebot | OneBot V11 | Bot 235286703 connected
+11-02 12:30:01 [INFO] ai_chat | ????: ???? ?????
+11-02 12:30:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593831, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 12:30:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 12:30:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593831, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:30:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 12:30:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593831, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:30:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 12:30:31 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 149617977 from 1450520453 '??'
+11-02 12:30:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 12:30:31 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 12:30:31 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 12:30:36 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593836, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 12:30:36 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:36 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 12:30:37 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running complete
+11-02 12:30:38 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593838, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 12:30:38 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:38 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 12:30:39 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593839, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:30:39 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:39 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 12:30:39 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593839, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:30:39 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:39 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running complete
+11-02 12:30:39 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1700166101 from 1450520453 '??'
+11-02 12:30:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=96)
+11-02 12:30:39 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=96) running complete
+11-02 12:30:39 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=97)
+11-02 12:30:42 [INFO] relay_switch | ??? DSH: ok=True detail=???????: dsh
+  ?????? DSH(dsh-onebot-qq)??,???????
+  NapCat ??????
+11-02 12:30:42 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=97) running complete
+11-02 12:30:43 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593843, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 12:30:43 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:43 [INFO] channel_gate | ??????? dsh?????NoneBot????? QQ ???????????? .tmp/active-channel.txt ?? legacy
+11-02 12:30:43 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:30:45 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593845, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 12:30:45 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:45 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:30:47 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593847, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:30:47 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:47 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:30:50 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593850, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 12:30:50 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:30:50 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:31:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593875, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:31:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:31:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:31:15 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793593875, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:31:15 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:31:15 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:31:15 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 778256203 from 1450520453 '?????????????????????????????'
+11-02 12:31:15 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 12:31:15 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 12:35:01 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594101, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 12:35:01 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:35:01 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:35:02 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594102, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:35:02 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:35:02 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:35:06 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594106, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:35:06 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:35:06 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:35:06 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594106, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 12:35:06 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:35:06 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:39:26 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594366, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 12:39:26 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:39:26 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:39:26 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594366, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:39:26 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:39:26 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:39:31 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594371, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 12:39:31 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:39:31 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:39:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594391, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:39:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:39:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:39:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594391, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:39:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:39:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:39:51 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 1070626360 from 1450520453 '????????????ai?????????????????'
+11-02 12:39:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 12:39:51 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled
+11-02 12:44:29 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594669, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-02 12:44:29 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:44:29 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:44:34 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594674, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-02 12:44:34 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:44:34 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:44:50 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594690, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:44:50 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:44:50 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:44:51 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793594691, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 12:44:51 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 340232334 from 1450520453 '??'
+11-02 12:44:51 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2220)
+11-02 12:44:51 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2220) running is cancelled
+11-02 12:44:51 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2238)
+11-02 12:44:51 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2238) running is cancelled

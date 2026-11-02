@@ -414,6 +414,19 @@ class MemoryStore:
         chat_type: str | None = None,
         limit: int = 300,
     ) -> list[dict]:
+        """按时间窗取聊天记录。
+
+        不指定 chat_type 时，私聊和群聊各取一份再合并——
+        否则私聊条数一多，群聊就会被挤到窗口外面，问"别的群"时什么都查不到。
+        """
+        if chat_type is None:
+            half = max(1, limit // 2)
+            mixed = self.recent_chat(since, until, "private", half) + self.recent_chat(
+                since, until, "group", half
+            )
+            mixed.sort(key=lambda item: item["created"])
+            return mixed
+
         with self._lock:
             self._prune_chat_log()
             sql = (
@@ -488,6 +501,71 @@ class MemoryStore:
             self._db.commit()
             return int(count)
 
+    def purge_maintenance_traces(self, chat_id: str, scans: int = 8) -> int:
+        """删掉最近的「检修」对话，别让它留在记忆里。
+
+        做法：翻最近 scans 条，凡是提到「检修」的那条一定删；
+        紧跟在它后面的 bot 回复也删（那是 AI 对检修的应答）。
+        返回删掉的条数。
+        """
+        words = ("检修", "checkup")
+
+        def hit(text: str) -> bool:
+            lowered = str(text or "").lower()
+            return any(word in lowered for word in words)
+
+        removed = 0
+        with self._lock:
+            rows = self._db.execute(
+                "SELECT id, is_bot, content FROM chat_log "
+                "WHERE chat_id = ? ORDER BY id DESC LIMIT ?",
+                (str(chat_id), max(2, scans)),
+            ).fetchall()
+
+            targets: list[int] = []
+            for idx, (rid, _is_bot, content) in enumerate(rows):
+                if hit(content):
+                    targets.append(int(rid))
+                    # rows 是倒序的：idx-1 是时间上更新的一条，
+                    # 如果它恰好是 bot 的应答，一起删掉
+                    if idx - 1 >= 0:
+                        nxt = rows[idx - 1]
+                        if int(nxt[1]):
+                            targets.append(int(nxt[0]))
+
+            if targets:
+                uniq = list(dict.fromkeys(targets))
+                placeholders = ",".join("?" for _ in uniq)
+                cur = self._db.execute(
+                    f"DELETE FROM chat_log WHERE id IN ({placeholders})", uniq
+                )
+                removed += cur.rowcount or 0
+
+            # messages 里同样处理
+            recent = self._db.execute(
+                "SELECT id, role, content FROM messages WHERE session_key = ? "
+                "ORDER BY id DESC LIMIT ?",
+                (f"p{chat_id}", max(2, scans)),
+            ).fetchall()
+            msg_targets: list[int] = []
+            for idx, (mid, role, content) in enumerate(recent):
+                if hit(content):
+                    msg_targets.append(int(mid))
+                    if idx - 1 >= 0:
+                        nxt = recent[idx - 1]
+                        if nxt[1] == "assistant":
+                            msg_targets.append(int(nxt[0]))
+            if msg_targets:
+                uniq = list(dict.fromkeys(msg_targets))
+                placeholders = ",".join("?" for _ in uniq)
+                cur = self._db.execute(
+                    f"DELETE FROM messages WHERE id IN ({placeholders})", uniq
+                )
+                removed += cur.rowcount or 0
+
+            self._db.commit()
+        return removed
+
     # ---------------------------------------------------------------- 收藏表情
     def find_sticker_by_hash(self, image_hash: str) -> int | None:
         with self._lock:
@@ -541,13 +619,29 @@ class MemoryStore:
                 "ORDER BY created DESC LIMIT ?",
                 (max(1, min(limit, 50)),),
             ).fetchall()
+            # 带【常用】标记的排到最前面，提示词里单独点出来
+            rows = sorted(
+                rows,
+                key=lambda r: 0 if "【常用】" in str(r[2] or "") else 1,
+            )
             lines: list[str] = []
             for sticker_id, description, usage_note in rows:
-                line = f"#{sticker_id} {str(description)[:40]}"
+                line = f"#{sticker_id} {str(description)[:60]}"
                 if usage_note:
-                    line += f"（适合：{str(usage_note)[:30]}）"
+                    note = str(usage_note)
+                    # 【常用】的说明要给全，别把使用场景截掉
+                    limit_note = 60 if "【常用】" in note else 30
+                    line += f"（适合：{note[:limit_note]}）"
                 lines.append(line)
             return "\n".join(lines)
+
+    def has_favorite_stickers(self) -> bool:
+        """是否有标记为【常用】的表情包。"""
+        with self._lock:
+            row = self._db.execute(
+                "SELECT COUNT(*) FROM saved_stickers WHERE usage_note LIKE '%【常用】%'"
+            ).fetchone()
+            return bool(row and row[0])
 
     def get_sticker(self, sticker_id: int) -> dict | None:
         with self._lock:

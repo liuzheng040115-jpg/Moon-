@@ -1,0 +1,16 @@
+11-02 15:46:50 [SUCCESS] nonebot | NoneBot is initializing...
+11-02 15:46:50 [INFO] nonebot | Current Env: prod
+11-02 15:46:50 [INFO] ai_chat | ???????? 48 ???? 1 ?
+11-02 15:46:50 [SUCCESS] nonebot | Succeeded to load plugin "ai_chat" from "plugins.ai_chat"
+11-02 15:46:50 [SUCCESS] nonebot | Succeeded to load plugin "relay_switch" from "plugins.relay_switch"
+11-02 15:46:50 [SUCCESS] nonebot | Succeeded to load plugin "channel_gate" from "plugins.channel_gate"
+11-02 15:46:50 [INFO] __main__ | ?????: ai_chat, channel_gate, relay_switch
+11-02 15:46:50 [SUCCESS] nonebot | Running NoneBot...
+11-02 15:46:50 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+11-02 15:46:50 [INFO] uvicorn | Started server process [16400]
+11-02 15:46:50 [INFO] uvicorn | Waiting for application startup.
+11-02 15:46:51 [INFO] __main__ | OneBot v11 ?? WS ??: ws://127.0.0.1:8080/onebot/v11/ws
+11-02 15:46:51 [INFO] __main__ | ?? NapCat / Lagrange ????? WebSocket???????token ? ONEBOT_ACCESS_TOKEN ??
+11-02 15:46:51 [INFO] uvicorn | Application startup complete.
+11-02 15:46:51 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+11-02 15:47:05 [INFO] uvicorn | 127.0.0.1:54441 - "GET /healthz HTTP/1.1" 200

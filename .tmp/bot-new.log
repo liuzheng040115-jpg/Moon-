@@ -1,0 +1,50 @@
+11-01 00:49:32 [SUCCESS] nonebot | NoneBot is initializing...
+11-01 00:49:32 [INFO] nonebot | Current Env: prod
+11-01 00:49:33 [INFO] ai_chat | ???????? 48 ???? 1 ?
+11-01 00:49:33 [SUCCESS] nonebot | Succeeded to load plugin "ai_chat" from "plugins.ai_chat"
+11-01 00:49:33 [SUCCESS] nonebot | Succeeded to load plugin "relay_switch" from "plugins.relay_switch"
+11-01 00:49:33 [INFO] __main__ | ?????: ai_chat, relay_switch
+11-01 00:49:33 [SUCCESS] nonebot | Running NoneBot...
+11-01 00:49:33 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+11-01 00:49:33 [INFO] uvicorn | Started server process [7768]
+11-01 00:49:33 [INFO] uvicorn | Waiting for application startup.
+11-01 00:49:33 [INFO] __main__ | OneBot v11 ?? WS ??: ws://127.0.0.1:8080/onebot/v11/ws
+11-01 00:49:33 [INFO] __main__ | ?? NapCat / Lagrange ????? WebSocket???????token ? ONEBOT_ACCESS_TOKEN ??
+11-01 00:49:33 [INFO] uvicorn | Application startup complete.
+11-01 00:49:33 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+11-01 00:49:35 [INFO] uvicorn | 127.0.0.1:53918 - "WebSocket /onebot/v11/ws" [accepted]
+11-01 00:49:35 [INFO] websockets | connection open
+11-01 00:49:35 [INFO] nonebot | OneBot V11 | Bot 235286703 connected
+11-01 00:49:35 [INFO] uvicorn | 127.0.0.1:53919 - "GET /healthz HTTP/1.1" 200
+11-01 00:49:39 [INFO] ai_chat | ????: ?? ???????
+11-01 00:50:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793465421, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-01 00:50:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:50:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:50:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793465421, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-01 00:50:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:50:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:50:21 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793465421, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-01 00:50:21 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:50:21 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:50:21 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 444840482 from 1450520453 '??'
+11-01 00:50:21 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=57)
+11-01 00:50:21 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=57) running complete
+11-01 00:50:26 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793465426, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 2}
+11-01 00:50:26 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:50:26 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:50:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793465427, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '??????...', 'event_type': 1}
+11-01 00:50:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:50:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:50:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793465427, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-01 00:50:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:50:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:50:27 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793465427, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-01 00:50:27 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2091)
+11-01 00:50:27 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2091) running complete
+11-01 00:50:27 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 865416602 from 1450520453 '??'
+11-01 00:50:27 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.relay_switch, lineno=57)
+11-01 00:50:30 [WARNING] nonebot | OneBot V11 | WebSocket for Bot 235286703 closed by peer
+11-01 00:50:30 [INFO] relay_switch | ??? DSH: ok=True detail=??? DSH (8643)
+  URL   : ws://127.0.0.1:8643/ws
+  ????:????????(???? bot.db / DSH sessions),?????
+11-01 00:50:30 [INFO] nonebot | Matcher(type='message', module=plugins.relay_switch, lineno=57) running complete

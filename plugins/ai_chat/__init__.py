@@ -53,6 +53,9 @@ from nonebot.plugin import PluginMetadata
 from .config import Settings, load_settings
 from .deepseek import ChatError, DeepSeekClient
 from .memory import MemoryStore
+from .narrative import Narrative
+from .records import Diaries, People
+from .self_state import SelfState
 
 __plugin_meta__ = PluginMetadata(
     name="AI 聊天",
@@ -79,6 +82,19 @@ memory = MemoryStore(
     chat_log_max_rows=settings.chat_log_max_rows,
     sticker_max=settings.sticker_max,
 )
+# 她自己的情绪 / 欲望 / 被夸记录，存在 data/self.json
+self_state = SelfState(_db_file.parent / "self.json")
+try:
+    self_state.seed_desires_if_empty()
+except Exception as exc:  # noqa: BLE001
+    logger.debug(f"自我状态初始化失败: {exc}")
+
+# 她正在讲的这个故事，存在 data/narrative.md
+narrative = Narrative(_db_file.parent / "narrative.md")
+
+# 两层记录：全局日记（一天一篇）+ 每个人一份档案
+diaries = Diaries(_db_file.parent / "diary")
+people = People(_db_file.parent / "people")
 try:
     backfilled = memory.backfill_chat_log()
     if backfilled:
@@ -154,6 +170,13 @@ _SAVE_NOTE_RE = re.compile(r"\[\[SAVE_NOTE:([^\]]+)\]\]", re.IGNORECASE)
 _REMEMBER_RE = re.compile(r"\[\[REMEMBER:([^\]\n]{1,220})\]\]", re.IGNORECASE)
 _SEARCH_RE = re.compile(r"\[\[SEARCH:([^\]\n]{1,120})\]\]", re.IGNORECASE)
 _SEND_GROUP_RE = re.compile(r"\[\[SEND_GROUP:(\{.*?\})\]\]", re.DOTALL | re.IGNORECASE)
+# 续写自己的故事：[[NARRATE:我跟他卡在倒水这件事上]]
+# 续写自己的故事：[[NARRATE:散文段落]]。散文会跨行，所以允许换行
+_NARRATE_RE = re.compile(r"\[\[NARRATE:(.{1,400}?)\]\]", re.IGNORECASE | re.DOTALL)
+# 写今天的日记：[[DIARY:散文]]，可以很长
+_DIARY_RE = re.compile(r"\[\[DIARY:(.{1,1500}?)\]\]", re.IGNORECASE | re.DOTALL)
+# 给当前这个人补一条印象：[[PROFILE:一句话]]
+_PROFILE_RE = re.compile(r"\[\[PROFILE:(.{1,220}?)\]\]", re.IGNORECASE | re.DOTALL)
 _SAVED_STICKER_DIR = _db_file.parent / "stickers"
 _FACE_NAMES = {
     "14": "微笑",
@@ -562,13 +585,35 @@ def _system_prompt(
     user_id: int | None = None,
 ) -> str:
     base = settings.system_prompt if is_fish else settings.normal_system_prompt
+    # 叙事放最前面：它决定她处在故事哪一段，比后面那些事实更要紧
+    try:
+        story = narrative.prompt_fragment(limit=4)
+        if story:
+            base += story
+    except Exception as exc:  # noqa: BLE001
+        logger.debug(f"读取叙事失败: {exc}")
+    # 最近的日记：她自己的日子
+    try:
+        diary_text = diaries.prompt_fragment()
+        if diary_text:
+            base += diary_text
+    except Exception as exc:  # noqa: BLE001
+        logger.debug(f"读取日记失败: {exc}")
     if settings.stickers:
         saved = memory.sticker_prompt(limit=20)
         if saved:
-            base += (
-                "\n\n你收藏的表情包（私聊、群里都能发，格式 [[STICKER:#编号]]；"
-                "看气氛偶尔发一张，别每句都发）：\n" + saved
-            )
+            if memory.has_favorite_stickers():
+                base += (
+                    "\n\n你收藏的表情包（私聊、群里都能发，格式 [[STICKER:#编号]]）：\n" + saved
+                    + "\n\n上面标了【常用】的那几张是你自己特别爱用的，"
+                    "只要对味就甩出来，别省着；不用每句都发，但一场聊下来该出现两三回。"
+                    "发图时正文可以只留一两个字的反应，或者干脆空着。"
+                )
+            else:
+                base += (
+                    "\n\n你收藏的表情包（私聊、群里都能发，格式 [[STICKER:#编号]]；"
+                    "看气氛偶尔发一张，别每句都发）：\n" + saved
+                )
     if settings.long_term_memory and user_id:
         facts = memory.facts(f"u{int(user_id)}", limit=8)
         if facts:
@@ -576,6 +621,21 @@ def _system_prompt(
                 "\n\n你记得关于这个人的事（自然用，不要逐条背，也别每句都提）：\n"
                 + "\n".join(f"- {fact}" for fact in facts)
             )
+    # 这个人的专属档案
+    if user_id:
+        try:
+            profile = people.prompt_fragment(user_id)
+            if profile:
+                base += profile
+        except Exception as exc:  # noqa: BLE001
+            logger.debug(f"读取人物档案失败: {exc}")
+    # 她自己的状态：情绪、惦记的事、被夸过什么
+    try:
+        fragment = self_state.prompt_fragment()
+        if fragment:
+            base += fragment
+    except Exception as exc:  # noqa: BLE001
+        logger.debug(f"读取自我状态失败: {exc}")
     if history:
         recent = [
             str(message.get("content") or "").strip()
@@ -860,6 +920,65 @@ def _extract_remember(text: str) -> tuple[list[str], str]:
     cleaned = _REMEMBER_RE.sub("", text).strip()
     cleaned = re.sub(r"\n{2,}", "\n", cleaned).strip()
     return [fact for fact in facts if fact], cleaned
+
+
+def _extract_narrative(text: str) -> tuple[list[str], str]:
+    """剥出 [[NARRATE:...]]，剩下的正文照常发出去。"""
+    parts = [m.group(1).strip() for m in _NARRATE_RE.finditer(text)]
+    cleaned = _NARRATE_RE.sub("", text).strip()
+    cleaned = re.sub(r"\n{2,}", "\n", cleaned).strip()
+    return [p for p in parts if p], cleaned
+
+
+def _extract_doc_marks(text: str) -> tuple[list[str], list[str], str]:
+    """剥出 [[DIARY:...]] 和 [[PROFILE:...]]，返回 (日记段, 档案条, 剩下的正文)。"""
+    diary_parts = [m.group(1).strip() for m in _DIARY_RE.finditer(text)]
+    profile_parts = [m.group(1).strip() for m in _PROFILE_RE.finditer(text)]
+    cleaned = _DIARY_RE.sub("", text)
+    cleaned = _PROFILE_RE.sub("", cleaned)
+    cleaned = re.sub(r"\n{2,}", "\n", cleaned).strip()
+    return [p for p in diary_parts if p], [p for p in profile_parts if p], cleaned
+
+
+# 被夸的识别词。宁可漏，也别把普通对话当成夸奖记进去。
+_PRAISE_WORDS = (
+    "好厉害", "厉害", "真棒", "太棒", "牛逼", "牛啊", "佩服", "喜欢", "可爱",
+    "好看", "聪明", "靠谱", "谢谢你", "谢谢", "辛苦了", "真好用", "做得好",
+    "不错", "挺好", "可以啊", "有点东西", "有想法", "说得好", "爱了",
+)
+# 带这些词的多半是在骂或者阴阳，不算夸
+_PRAISE_DENY = (
+    "不喜欢", "才怪", "滚", "傻", "笨", "丑", "菜", "垃圾", "算了", "别夸",
+)
+
+# 同一人短时间内不重复记，避免刷屏
+_praise_last: dict[str, float] = {}
+
+
+def _absorb_praise(text: str, who: str) -> None:
+    """检测到被夸就默默收下，存进她自己的状态里。不回话、不提示。"""
+    raw = (text or "").strip()
+    if len(raw) < 3 or len(raw) > 120:
+        return
+    if any(bad in raw for bad in _PRAISE_DENY):
+        return
+    hit = next((word for word in _PRAISE_WORDS if word in raw), None)
+    if not hit:
+        return
+
+    key = f"{who}:{hit}"
+    now = time.time()
+    if now - _praise_last.get(key, 0) < 600:
+        return
+    _praise_last[key] = now
+
+    self_state.add_praise(raw, who)
+    # 被夸一次，心情会好一点；但她只在自己的状态里知道这件事
+    good_moods = ("来兴致了", "得意", "平稳")
+    cur, _note = self_state.mood()
+    if cur not in good_moods:
+        self_state.set_mood(random.choice(good_moods), "刚被人夸了一句")
+    logger.debug(f"记下一句夸奖（不回复）: {raw[:40]}")
 
 
 _SAVE_INSTRUCTION_HINTS = ("存一下", "存下", "收藏", "收了", "收下", "留着", "保存")
@@ -1603,6 +1722,18 @@ def _human_delay(text: str) -> float:
     return read + typing
 
 
+# ---------------------------------------------------------------- 消息合并
+# 收到消息先压一会儿，这期间来的都收进同一个桶，一起交给模型。
+# 目的是让她像"一次读完对方连发的几条"，而不是一条一条抢答。
+_MSG_BUCKET: dict[str, dict] = {}
+
+
+def _merge_key(event: MessageEvent) -> str:
+    if isinstance(event, GroupMessageEvent):
+        return f"g{event.group_id}:{event.user_id}"
+    return f"p{event.user_id}"
+
+
 def _fmt_uptime(seconds: float) -> str:
     days, rem = divmod(int(seconds), 86400)
     hours, rem = divmod(rem, 3600)
@@ -1633,43 +1764,52 @@ def _hard_split(sentence: str, limit: int) -> list[str]:
 
 
 def _split_bubbles(text: str) -> list[str]:
-    """像真人发消息一样分条：按句号/问号拆，再按上限合并；0 表示不分。"""
+    """像真人发消息一样分条。
+
+    两件事分开看：
+    1. 她自己打的换行 = 她想分成几条说，那就真的分开发，别塞在一条里。
+    2. send_chars 是按字数硬拆，设 0 就关掉。
+    """
     text = text.strip()
-    limit = int(settings.send_chars)
     if not text:
         return []
-    if limit <= 0 or len(text) <= limit:
-        return [text]
 
-    pieces: list[str] = []
-    for sentence in _SENTENCE_RE.findall(text):
-        sentence = sentence.strip()
-        if not sentence:
-            continue
-        if len(sentence) <= limit:
-            pieces.append(sentence)
-        else:
-            pieces.extend(_hard_split(sentence, limit))
+    # 先按换行切成若干段，每段是一条独立消息
+    paragraphs = [p.strip() for p in re.split(r"\n+", text) if p.strip()]
+    if not paragraphs:
+        return []
 
+    limit = int(settings.send_chars)
     bubbles: list[str] = []
-    current = ""
-    for piece in pieces:
-        if current and len(current) + len(piece) > limit:
+    for para in paragraphs:
+        if limit <= 0 or len(para) <= limit:
+            bubbles.append(para)
+            continue
+        pieces: list[str] = []
+        for sentence in _SENTENCE_RE.findall(para):
+            sentence = sentence.strip()
+            if not sentence:
+                continue
+            if len(sentence) <= limit:
+                pieces.append(sentence)
+            else:
+                pieces.extend(_hard_split(sentence, limit))
+
+        current = ""
+        for piece in pieces:
+            if current and len(current) + len(piece) > limit:
+                bubbles.append(current)
+                current = piece
+            else:
+                current += piece
+        if current:
             bubbles.append(current)
-            current = piece
-        else:
-            current += piece
-    if current:
-        bubbles.append(current)
 
     max_bubbles = max(1, int(settings.send_max_bubbles))
     if len(bubbles) > max_bubbles:
-        merged: list[str] = []
-        total = len(bubbles)
-        for index in range(max_bubbles):
-            start = index * total // max_bubbles
-            end = (index + 1) * total // max_bubbles
-            merged.append("".join(bubbles[start:end]))
+        # 超了就往后并，别把前面的段拆碎
+        merged: list[str] = bubbles[: max_bubbles - 1]
+        merged.append("\n".join(bubbles[max_bubbles - 1 :]))
         bubbles = merged
 
     return [bubble.strip() for bubble in bubbles if bubble.strip()]
@@ -1682,7 +1822,7 @@ async def _send(bot: Bot, event: MessageEvent, text: str, split: bool = True) ->
     chunks = [chunk for chunk in chunks if chunk]
     for index, chunk in enumerate(chunks):
         if index:
-            await asyncio.sleep(random.uniform(0.4, 1.2))
+            await asyncio.sleep(random.uniform(1.5, 5.0))
         message = MessageSegment.text(chunk)
         # 只给第一条加引用，分成多条时不刷屏
         if settings.quote_reply and index == 0 and isinstance(event, GroupMessageEvent):
@@ -1724,6 +1864,8 @@ async def _generate_proactive(bot: Bot) -> str:
         "\n\n现在没有新消息，你想主动给 1450520453 发条私聊开启聊天。"
         "可以带点小脾气、耍性子、撒娇、催他、抱怨他不理你，别用客服式问候；"
         "结合现在的时间和你们最近聊的内容，写一句 3～20 个字的话，句末不加句号，不解释。"
+        "如果这会儿心里正好有件值得说的事（新鲜的、好笑的、堵得慌的），"
+        "也可以顺手写 [[ACTION:qzone:说说正文]] 发到空间，不用问谁。"
         "如果刚聊过、实在没什么想说，就只回 [SKIP]。"
     )
     messages = [
@@ -1771,6 +1913,20 @@ async def _send_proactive(bot: Bot, *, force: bool = False) -> str:
         logger.warning(f"主动私聊生成异常: {exc}")
         return ""
     if not text:
+        return ""
+    # 主动开口时她也可能顺手发个说说，剥出来执行，别把指令当正文发出去
+    proactive_action, text = _extract_action(text)
+    if proactive_action:
+        try:
+            if proactive_action[0] == "qzone":
+                now_q = time.time()
+                if now_q - _last_qzone_post.get(str(target), 0) >= settings.qzone_cooldown:
+                    if await _run_profile_action(bot, proactive_action):
+                        _last_qzone_post[str(target)] = now_q
+                        logger.info("主动发了一条说说")
+        except Exception as exc:  # noqa: BLE001
+            logger.debug(f"主动说说失败: {exc}")
+    if not text.strip():
         return ""
     try:
         await bot.call_api("send_private_msg", user_id=target, message=text)
@@ -2194,6 +2350,40 @@ async def _(bot: Bot, event: MessageEvent) -> None:
     if isinstance(event, PrivateMessageEvent):
         _last_private_activity[int(event.user_id)] = time.time()
 
+    # 压一会儿再回：对方还在连着发就一直等，安静下来 3~4 秒才动。
+    # 只有最早进桶的那条负责等和发，后来的只入桶、刷新计时、立刻退出，不抢答。
+    merged_count = 0
+    if text:
+        key = _merge_key(event)
+        bucket = _MSG_BUCKET.get(key)
+        if bucket is None:
+            bucket = _MSG_BUCKET[key] = {"items": [], "last": 0.0}
+            leader = True
+        else:
+            leader = False
+
+        bucket["items"].append(text)
+        bucket["last"] = time.monotonic()
+
+        if not leader:
+            return
+
+        # 安静多久算对方说完了；每次重新随机，别让人摸出固定节奏
+        gap = random.uniform(3.0, 4.0)
+        while True:
+            await asyncio.sleep(0.5)
+            current = _MSG_BUCKET.get(key)
+            if current is None:
+                return  # 桶被别处收走了
+            if time.monotonic() - current["last"] >= gap:
+                merged = _MSG_BUCKET.pop(key, {}).get("items", [])
+                break
+
+        merged_count = 0
+        if len(merged) > 1:
+            text = "\n".join(merged)
+            merged_count = len(merged)
+            logger.debug(f"合并 {merged_count} 条消息一起交给模型")
     auto_reply = False
     group_context: list[dict] = []
     group_active = False
@@ -2329,6 +2519,14 @@ async def _(bot: Bot, event: MessageEvent) -> None:
     async with _locks[key]:
         history = memory.history(key)
         system_content = _system_prompt(is_fish, history, user_id=int(event.user_id))
+        # 对方一口气发了好几条时，当成一段话整体看，别一句一句接
+        if merged_count > 1:
+            system_content += (
+                f"\n\n对方刚才连着发了 {merged_count} 条，下面是这 {merged_count} 条连在一起的样子。"
+                "先把它当成一整段话读完，想清楚他到底在说什么、真正想问的是哪件事，再决定怎么回。"
+                "不要一条一条照着回，不要逐句附和，也不要重复他说过的话；"
+                "该合并的合并，该只答一个重点的就只答那一个。"
+            )
         if isinstance(event, GroupMessageEvent) and (_profile_request(text) or images or "背景" in text):
             system_content += "\n\n现在是在群里。有人让你改头像/昵称/签名，别答应，也别执行。"
         elif (
@@ -2525,33 +2723,72 @@ async def _(bot: Bot, event: MessageEvent) -> None:
                 if recent_image:
                     known_images = [recent_image]
             action = _normalize_action(action, known_images)
-            profile_intent = time.time() - _profile_intent.get(key, 0) < 900
-            if not (_profile_request(text) or profile_intent):
-                logger.warning(f"忽略没有改资料意图的动作: {action}")
-                action = None
-            elif action[0] == "avatar" and action[1] not in known_images and action[1] not in text:
-                logger.warning(f"忽略来源不明的头像 URL: {action[1][:80]}")
-                action = None
-        if action and not allow_profile:
+            if action and action[0] == "qzone":
+                # 说说由她自己决定：遇到值得说的事就发，不必等谁开口
+                pass
+            else:
+                profile_intent = time.time() - _profile_intent.get(key, 0) < 900
+                if not (_profile_request(text) or profile_intent):
+                    logger.warning(f"忽略没有改资料意图的动作: {action}")
+                    action = None
+                elif action and action[0] == "avatar" and action[1] not in known_images and action[1] not in text:
+                    logger.warning(f"忽略来源不明的头像 URL: {action[1][:80]}")
+                    action = None
+        # 改头像/昵称/签名限在私聊；发说说不受这条管，群里也能自己发
+        if action and action[0] != "qzone" and not allow_profile:
             action = None
             reply = "群里不折腾这个，私聊说。" if isinstance(event, GroupMessageEvent) else "这个不折腾。"
         if action and action[0] == "qzone":
             now = time.time()
             if now - _last_qzone_post.get(str(event.user_id), 0) < settings.qzone_cooldown:
+                # 是她自己想发、被冷却挡了，不用跟对方解释，静静跳过
+                logger.debug("说说冷却中，这次不发")
                 action = None
-                reply = "刚发过空间，晚点再说"
         if action:
             if await _run_profile_action(bot, action):
                 _last_profile_change[str(event.user_id)] = time.time()
                 if action[0] == "qzone":
                     _last_qzone_post[str(event.user_id)] = time.time()
+                    logger.info("已发说说")
+            elif action[0] != "qzone":
+                # 说说是她自己想发的，发失败不打扰对方，只记日志
+                reply = "没换成，晚点再说"
             else:
-                reply = "没发出去，晚点再说" if action[0] == "qzone" else "没换成，晚点再说"
+                logger.warning("说说没发出去")
         remembered, reply = _extract_remember(reply)
         if remembered and settings.long_term_memory:
             for fact in remembered[:2]:
                 memory.add_fact(f"u{int(event.user_id)}", fact)
             logger.info(f"记住 {event.user_id}: {remembered[:2]}")
+        # 被夸了就默默记下来，回话里一个字都不提
+        try:
+            _absorb_praise(text, _display_name(event))
+        except Exception as exc:  # noqa: BLE001
+            logger.debug(f"记录夸奖失败: {exc}")
+        # 她自己续写故事
+        narrated, reply = _extract_narrative(reply)
+        if narrated:
+            try:
+                for entry in narrated[:2]:
+                    narrative.append(entry)
+            except Exception as exc:  # noqa: BLE001
+                logger.debug(f"续写叙事失败: {exc}")
+        # 日记和人物档案
+        diary_parts, profile_parts, reply = _extract_doc_marks(reply)
+        if diary_parts:
+            try:
+                for part in diary_parts[:1]:
+                    diaries.write(part)
+            except Exception as exc:  # noqa: BLE001
+                logger.debug(f"写日记失败: {exc}")
+        if profile_parts:
+            try:
+                for part in profile_parts[:2]:
+                    people.remember(
+                        int(event.user_id), part, _display_name(event)
+                    )
+            except Exception as exc:  # noqa: BLE001
+                logger.debug(f"写人物档案失败: {exc}")
         if is_fish and reply:
             reply = _tone_down_particles(reply)
         if reply:

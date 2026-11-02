@@ -1,0 +1,258 @@
+{
+  "version": 7,
+  "record": {
+    "identity": {
+      "formatVersion": 4,
+      "createdAt": 1793465927882,
+      "cwd": "E:\\qqbot",
+      "isSeeded": false,
+      "inheritedEventCount": 0
+    },
+    "rows": {
+      "title": {
+        "ver": 1,
+        "seq": 19,
+        "val": null
+      },
+      "titleInput": {
+        "ver": 3,
+        "seq": 19,
+        "val": {
+          "first": null,
+          "count": 0,
+          "lastSeq": null
+        }
+      },
+      "llmRetry": {
+        "ver": 1,
+        "seq": 19,
+        "val": {}
+      },
+      "sandboxMode": {
+        "ver": 1,
+        "seq": 19,
+        "val": "workspace-write"
+      },
+      "goal": {
+        "ver": 6,
+        "seq": 19,
+        "val": {
+          "current": null,
+          "seenGoalIds": [],
+          "failure": null
+        }
+      },
+      "tokenUsage": {
+        "ver": 2,
+        "seq": 19,
+        "val": {
+          "totals": {
+            "uncachedInputTokens": 0,
+            "outputTokens": 0,
+            "cacheReadTokens": 0,
+            "cacheWriteTokens": 0
+          },
+          "last": null
+        }
+      },
+      "contextPressure": {
+        "ver": 5,
+        "seq": 19,
+        "val": {
+          "surfaceTokens": 0
+        }
+      },
+      "contextBreakdown": {
+        "ver": 6,
+        "seq": 19,
+        "val": {
+          "systems": [],
+          "surfaceTokens": 0,
+          "breakdown": {
+            "systemTokens": 0,
+            "toolsTokens": 0,
+            "messageTokens": 0
+          }
+        }
+      },
+      "turnBoundary": {
+        "ver": 2,
+        "seq": 19,
+        "val": {
+          "openTurnStartSeq": null,
+          "lastStepStartSeq": null,
+          "lastStepBoundary": null,
+          "lastTurn": 4
+        }
+      },
+      "inbox": {
+        "ver": 1,
+        "seq": 19,
+        "val": {
+          "next-turn": [],
+          "next-step": []
+        }
+      },
+      "sessionStats": {
+        "ver": 1,
+        "seq": 19,
+        "val": {
+          "turns": 0,
+          "steps": 0,
+          "llmMs": 0,
+          "toolMs": 0,
+          "ttftMs": 0,
+          "ttftSteps": 0,
+          "decodeMs": 0,
+          "decodeTokens": 0,
+          "lastTurn": null,
+          "openStep": null,
+          "pendingCalls": {}
+        }
+      },
+      "turnOutline": {
+        "ver": 2,
+        "seq": 19,
+        "val": {
+          "turns": [
+            {
+              "turn": 1,
+              "seq": 4,
+              "prompt": "",
+              "response": ""
+            },
+            {
+              "turn": 2,
+              "seq": 8,
+              "prompt": "",
+              "response": ""
+            },
+            {
+              "turn": 3,
+              "seq": 12,
+              "prompt": "",
+              "response": ""
+            },
+            {
+              "turn": 4,
+              "seq": 16,
+              "prompt": "",
+              "response": ""
+            }
+          ],
+          "draft": ""
+        }
+      },
+      "agentPreset": {
+        "ver": 1,
+        "seq": 19,
+        "val": "standard"
+      },
+      "userQuestions": {
+        "ver": 2,
+        "seq": 19,
+        "val": {
+          "inheritedEventCount": 0,
+          "timed": false,
+          "questions": {
+            "active": [],
+            "settled": []
+          }
+        }
+      },
+      "permissions": {
+        "ver": 2,
+        "seq": 19,
+        "val": {
+          "preset": "workspace-write",
+          "sandbox": "workspace-write",
+          "approval": "ask",
+          "seeded": true
+        }
+      },
+      "workingDirectory": {
+        "ver": 1,
+        "seq": 19,
+        "val": "E:\\qqbot"
+      },
+      "subagentCatalog": {
+        "ver": 6,
+        "seq": 19,
+        "val": {
+          "inheritedEventCount": 0
+        }
+      },
+      "subagentTiming": {
+        "ver": 3,
+        "seq": 19,
+        "val": {
+          "descriptorSeen": false,
+          "settledMs": 0
+        }
+      },
+      "subagent": {
+        "ver": 2,
+        "seq": 19,
+        "val": {}
+      },
+      "timeContext": {
+        "ver": 2,
+        "seq": 19,
+        "val": {
+          "lastMessageTime": null,
+          "lastInjectionTime": null,
+          "lastTurnInjectionTime": null
+        }
+      },
+      "todos": {
+        "ver": 2,
+        "seq": 19,
+        "val": null
+      },
+      "plan": {
+        "ver": 3,
+        "seq": 19,
+        "val": {
+          "active": false,
+          "wanted": null,
+          "running": null,
+          "activeAtLastHeader": null
+        }
+      },
+      "subagentModelSelectionPolicy": {
+        "ver": 1,
+        "seq": 19,
+        "val": null
+      },
+      "harnessDevLegacyPrompt": {
+        "ver": 1,
+        "seq": 19,
+        "val": {
+          "source": null,
+          "web": null
+        }
+      },
+      "modelSelection": {
+        "ver": 2,
+        "seq": 19,
+        "val": {
+          "lastUsed": null,
+          "pending": null
+        }
+      },
+      "sessionListMetadata": {
+        "ver": 1,
+        "seq": 19,
+        "val": {
+          "blank": false,
+          "lastPromptAt": null
+        }
+      },
+      "imageLimits": {
+        "ver": 1,
+        "seq": 19,
+        "val": null
+      }
+    }
+  }
+}

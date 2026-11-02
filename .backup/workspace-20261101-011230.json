@@ -1,0 +1,66 @@
+{
+  "unit": {
+    "name": "workspace",
+    "version": 2
+  },
+  "global": {
+    "initialized": true,
+    "defaultWorkspaceId": "2a526ce5-7526-4a1c-82df-64f22b7c106a",
+    "workspaceIds": [
+      "cd5d8fd2-613e-48b9-901d-4ddf2fc22c92",
+      "8f80648c-8190-4e65-b799-939c9ded59f5",
+      "73131649-4046-4bd3-a474-afd50b9aff1a"
+    ],
+    "archivedSessionIds": [
+      "session-8302fd43-3820-4003-9855-bc78bee199a4",
+      "session-d025c239-f318-4026-98cb-7cd7cd8041a5",
+      "session-68f56005-deac-415f-990e-4eba5ef5cf9c",
+      "session-5402ffd8-3d46-42b7-bb9a-17b38bcc089a",
+      "session-b5ef9e33-f110-4aec-b386-a37e8bfc7f28",
+      "session-103fd643-f5f5-445e-921e-212d0918be5c",
+      "session-43a87ae3-0876-4d0d-ae17-075eef37a47f",
+      "onebot-private-1450520453"
+    ],
+    "pinnedSessionIds": []
+  },
+  "tables": {
+    "workspaces": {
+      "73131649-4046-4bd3-a474-afd50b9aff1a": {
+        "path": "E:\\qqbot",
+        "title": "qqbot",
+        "sessionIds": [
+          "session-af83f15a-9474-40d0-83cf-67cc3e45b345",
+          "session-eaf6aad2-4f55-496e-a0e3-cdbffdb620c4",
+          "session-5402ffd8-3d46-42b7-bb9a-17b38bcc089a",
+          "session-b5ef9e33-f110-4aec-b386-a37e8bfc7f28",
+          "session-239f93bd-6001-4bd1-b2f6-81139f131ca2",
+          "session-68f56005-deac-415f-990e-4eba5ef5cf9c",
+          "session-b1f9d13f-22e0-4f52-a3ea-bd5f29fc5ff2"
+        ],
+        "createdAt": "2026-10-28T10:29:36.383Z",
+        "updatedAt": "2026-10-29T02:23:28.339Z"
+      },
+      "8f80648c-8190-4e65-b799-939c9ded59f5": {
+        "path": "E:\\app\\deepseek\\对话",
+        "title": "对话",
+        "sessionIds": [
+          "session-3a66f0ca-fcf3-4f0d-a654-15bed14b41fd",
+          "onebot-private-1450520453",
+          "session-99b43895-1049-4c8d-9623-6eaeac9eb0a2",
+          "session-13b82d51-a059-4a9a-9c42-c0f8ef4aac5b"
+        ],
+        "createdAt": "2026-10-31T15:03:43.684Z",
+        "updatedAt": "2026-10-31T17:03:29.671Z"
+      },
+      "cd5d8fd2-613e-48b9-901d-4ddf2fc22c92": {
+        "path": "C:\\Users\\86182\\.dsh\\dsh_wechat",
+        "title": "微信会话",
+        "sessionIds": [
+          "session-b19b4d06-b19b4d06-7cee-4af0-8fa2-48df05b748f4"
+        ],
+        "createdAt": "2026-10-31T17:06:07.644Z",
+        "updatedAt": "2026-10-31T17:06:07.680Z"
+      }
+    }
+  }
+}

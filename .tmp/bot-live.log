@@ -1,0 +1,22 @@
+11-01 00:56:17 [SUCCESS] nonebot | NoneBot is initializing...
+11-01 00:56:17 [INFO] nonebot | Current Env: prod
+11-01 00:56:18 [SUCCESS] nonebot | Succeeded to load plugin "relay_switch" from "plugins.relay_switch"
+11-01 00:56:18 [INFO] ai_chat | ???????? 48 ???? 1 ?
+11-01 00:56:18 [SUCCESS] nonebot | Succeeded to load plugin "ai_chat" from "plugins.ai_chat"
+11-01 00:56:18 [INFO] __main__ | ?????: ai_chat, relay_switch
+11-01 00:56:18 [SUCCESS] nonebot | Running NoneBot...
+11-01 00:56:18 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+11-01 00:56:18 [INFO] uvicorn | Started server process [10060]
+11-01 00:56:18 [INFO] uvicorn | Waiting for application startup.
+11-01 00:56:18 [INFO] __main__ | OneBot v11 ?? WS ??: ws://127.0.0.1:8080/onebot/v11/ws
+11-01 00:56:18 [INFO] __main__ | ?? NapCat / Lagrange ????? WebSocket???????token ? ONEBOT_ACCESS_TOKEN ??
+11-01 00:56:18 [INFO] uvicorn | Application startup complete.
+11-01 00:56:18 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+11-01 01:14:03 [INFO] uvicorn | 127.0.0.1:49491 - "GET /healthz HTTP/1.1" 200
+11-01 01:15:02 [INFO] uvicorn | 127.0.0.1:49556 - "GET /healthz HTTP/1.1" 200
+11-01 01:16:49 [INFO] uvicorn | 127.0.0.1:49698 - "GET /healthz HTTP/1.1" 200
+11-01 01:17:42 [INFO] uvicorn | 127.0.0.1:49777 - "GET /healthz HTTP/1.1" 200
+11-01 01:18:23 [INFO] uvicorn | 127.0.0.1:49831 - "WebSocket /onebot/v11/ws" [accepted]
+11-01 01:18:23 [INFO] websockets | connection open
+11-01 01:18:23 [INFO] nonebot | OneBot V11 | Bot 235286703 connected
+11-01 01:18:28 [INFO] ai_chat | ????: ?? ???????

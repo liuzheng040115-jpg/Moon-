@@ -1,0 +1,89 @@
+# Your patch layer for this dsh profile, applied after every bundle layer:
+# a top-level YAML array of loader patch entries (id-targeted config
+# overrides, disables, and insert lists; `!!js` expressions allowed).
+- id: ui-chat
+  name: "@deepseek-ai/dsh-client-ui-chat"
+  config:
+    transcriptView: standard
+    performanceUsage: detailed
+- id: ui-settings
+  name: "@deepseek-ai/dsh-client-ui-settings"
+  config:
+    enabled: true
+- id: ui-settings-account
+  name: "@deepseek-ai/dsh-client-ui-settings-account"
+  config:
+    version: 1
+    step: done
+    usage: detailed
+    developerTools: true
+    purpose: null
+    process: standard
+    completion: api-key
+- id: llm-pi-ai
+  name: "@deepseek-ai/dsh-llm-pi-ai"
+  config:
+    providers:
+      deepseek:
+        baseURL: https://cn3.heilovehei.com
+        apiKeyEnv: DEEPSEEK_API_KEY
+      gpt:
+        displayName: gpt
+        apiKeyEnv: GPT_API_KEY
+        api: openai-completions
+        baseURL: https://heilovehei.com/
+        models:
+          - id: codex-auto-review
+            name: Codex Auto Review
+          - id: gpt-5.6-luna
+            name: GPT-5.6 Luna
+          - id: gpt-5.6-sol
+            name: GPT-5.6 Sol
+          - id: gpt-5.6-terra
+            name: GPT-5.6 Terra
+          - id: gpt-6-astra
+            name: GPT-6 Astra
+          - id: gpt-6-luna
+            name: GPT-6 Luna
+          - id: gpt-6-sol
+            name: GPT-6 Sol
+          - id: gpt-6.1-sol
+            name: GPT-6.1 Sol
+          - id: gpt-6.1-terra
+            name: gpt-6.1-terra
+          - id: gpt-image-2
+            name: GPT Image 2
+          - id: gpt-image-2.5
+            name: gpt-image-2.5
+          - id: gpt-image-2.5-flare
+            name: GPT Image 2.5 Flare
+          - id: gpt-image-2.5-sunburst
+            name: GPT Image 2.5 Sunburst
+          - id: gpt-reserve
+            name: gpt-reserve
+- id: agent-default-model
+  name: "@deepseek-ai/dsh-agent-default-model"
+  config:
+    provider: deepseek-official
+    model: deepseek-flash
+    reasoningEffort: high
+- id: llm-deepseek
+  name: "@deepseek-ai/dsh-llm-deepseek-api-key"
+  config:
+    baseURL: https://cn3.heilovehei.com
+- id: dsh-onebot
+  name: "dsh-onebot-qq"
+  config:
+    mode: reverse
+    host: 127.0.0.1
+    port: 8643
+    accessToken: YOUQtujMpycTvaGbjEocaUraJ1wl
+    adminUsers:
+      - "1450520453"
+    workspacePath: "E:\\qqbot"
+- id: onebot-settings-remote
+  name: "dsh-onebot-qq/settings-remote"
+- id: dsh-wechat-plugin
+  name: "dsh-wechat-plugin"
+  config:
+    autoStart: true

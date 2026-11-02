@@ -1,0 +1,30 @@
+11-02 09:20:15 [SUCCESS] nonebot | NoneBot is initializing...
+11-02 09:20:15 [INFO] nonebot | Current Env: prod
+11-02 09:20:15 [INFO] ai_chat | 私聊会话已按最近 48 小时重建 1 个
+11-02 09:20:16 [SUCCESS] nonebot | Succeeded to load plugin "ai_chat" from "plugins.ai_chat"
+11-02 09:20:16 [SUCCESS] nonebot | Succeeded to load plugin "relay_switch" from "plugins.relay_switch"
+11-02 09:20:16 [SUCCESS] nonebot | Succeeded to load plugin "channel_gate" from "plugins.channel_gate"
+11-02 09:20:16 [INFO] __main__ | 已加载插件: ai_chat, channel_gate, relay_switch
+11-02 09:20:16 [SUCCESS] nonebot | Running NoneBot...
+11-02 09:20:16 [SUCCESS] nonebot | Loaded adapters: OneBot V11
+11-02 09:20:16 [INFO] uvicorn | Started server process [1064]
+11-02 09:20:16 [INFO] uvicorn | Waiting for application startup.
+11-02 09:20:16 [INFO] __main__ | OneBot v11 反向 WS 监听: ws://127.0.0.1:8080/onebot/v11/ws
+11-02 09:20:16 [INFO] __main__ | 请在 NapCat / Lagrange 中把「反向 WebSocket」指向该地址，token 与 ONEBOT_ACCESS_TOKEN 一致
+11-02 09:20:16 [INFO] uvicorn | Application startup complete.
+11-02 09:20:16 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+11-02 09:20:18 [INFO] uvicorn | 127.0.0.1:58227 - "WebSocket /onebot/v11/ws" [accepted]
+11-02 09:20:18 [INFO] websockets | connection open
+11-02 09:20:18 [INFO] nonebot | OneBot V11 | Bot 235286703 connected
+11-02 09:20:30 [INFO] uvicorn | 127.0.0.1:65153 - "GET /healthz HTTP/1.1" 200
+11-02 09:20:54 [INFO] uvicorn | 127.0.0.1:56127 - "GET /healthz HTTP/1.1" 200
+11-02 09:21:29 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793582489, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 09:21:29 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2165)
+11-02 09:21:29 [INFO] channel_gate | 当前活跃通道是 dsh，本进程（NoneBot）忽略所有 QQ 事件；要交回旧机器人请把 .tmp/active-channel.txt 写成 legacy
+11-02 09:21:29 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2165) running is cancelled
+11-02 09:21:29 [SUCCESS] nonebot | OneBot V11 235286703 | [notice.notify.input_status]: {'time': 1793582489, 'self_id': 235286703, 'post_type': 'notice', 'notice_type': 'notify', 'sub_type': 'input_status', 'user_id': 1450520453, 'group_id': 0, 'status_text': '', 'event_type': 2}
+11-02 09:21:29 [INFO] nonebot | Event will be handled by Matcher(type='notice', module=plugins.ai_chat, lineno=2165)
+11-02 09:21:29 [INFO] nonebot | Matcher(type='notice', module=plugins.ai_chat, lineno=2165) running is cancelled
+11-02 09:21:29 [SUCCESS] nonebot | OneBot V11 235286703 | [message.private.friend]: Message 2010180124 from 1450520453 '为机器人人格注入更强的自我人格，不要一味顺应也不要一味反对，应该根据自己的思考进行决策'
+11-02 09:21:29 [INFO] nonebot | Event will be handled by Matcher(type='message', module=plugins.ai_chat, lineno=2183)
+11-02 09:21:29 [INFO] nonebot | Matcher(type='message', module=plugins.ai_chat, lineno=2183) running is cancelled

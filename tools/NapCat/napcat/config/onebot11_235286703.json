@@ -1,0 +1,45 @@
+{
+  "network": {
+    "httpServers": [],
+    "httpSseServers": [],
+    "httpClients": [],
+    "websocketServers": [],
+    "websocketClients": [
+      {
+        "enable": true,
+        "name": "legacy",
+        "url": "ws://127.0.0.1:8080/onebot/v11/ws",
+        "reportSelfMessage": false,
+        "messagePostFormat": "array",
+        "token": "dcdc36ef4c99f2619cb843c96b444beb",
+        "debug": false,
+        "heartInterval": 30000,
+        "reconnectInterval": 5000,
+        "verifyCertificate": true
+      },
+      {
+        "enable": true,
+        "name": "dsh",
+        "url": "ws://127.0.0.1:8643/ws",
+        "reportSelfMessage": false,
+        "messagePostFormat": "array",
+        "token": "YOUQtujMpycTvaGbjEocaUraJ1wl",
+        "debug": false,
+        "heartInterval": 30000,
+        "reconnectInterval": 5000,
+        "verifyCertificate": true
+      }
+    ],
+    "plugins": []
+  },
+  "musicSignUrl": "",
+  "enableLocalFile2Url": false,
+  "parseMultMsg": false,
+  "imageDownloadProxy": "",
+  "timeout": {
+    "baseTimeout": 10000,
+    "uploadSpeedKBps": 256,
+    "downloadSpeedKBps": 256,
+    "maxTimeout": 1800000
+  }
+}
